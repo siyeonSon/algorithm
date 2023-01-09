@@ -3,8 +3,10 @@
 ### 스택, 힙
 - [x] [단어 뒤집기](https://www.acmicpc.net/problem/9093)
 - [x] [괄호](https://www.acmicpc.net/problem/9012)
+- [ ] [에디터] (https://www.acmicpc.net/problem/1406)
 
 
 ### DP
 - [x] [설탕 배달](https://www.acmicpc.net/problem/2839)
 - [x] [동물원](https://www.acmicpc.net/problem/1309)
+- [ ] [합분헤](https://www.acmicpc.net/problem/2225)
