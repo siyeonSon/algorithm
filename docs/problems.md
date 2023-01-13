@@ -3,7 +3,6 @@
 ### 스택, 힙
 - [x] [단어 뒤집기](https://www.acmicpc.net/problem/9093)
 - [x] [괄호](https://www.acmicpc.net/problem/9012)
-- [ ] [에디터] (https://www.acmicpc.net/problem/1406)
 
 
 ### DP
