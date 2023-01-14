@@ -65,7 +65,7 @@ print("".join(reversed(s))
 ## 🐰I/O
 `import sys`
 
-`n = int(sys.stdin.readline())`
+`input = int(sys.stdin.readline())`
 
 `n, m = map(int, input().split())`
 
