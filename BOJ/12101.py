@@ -7,8 +7,8 @@ n, k = map(int, input().split())
 
 dp = [['1'], ['1+1', '2'], ['1+1+1', '1+2', '2+1', '3']]
 
-calculations = []
 for i in range(4, n+1) :
+    calculations = []
     for j in range(1, 4) :  # '1+', '2+', '3+'
         for num in dp[i-j-1] :  # 'j+num'
             calculations.append(str(j) + "+" + num)
