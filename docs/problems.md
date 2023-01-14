@@ -9,4 +9,5 @@
 - [x] [설탕 배달](https://www.acmicpc.net/problem/2839)
 - [x] [동물원](https://www.acmicpc.net/problem/1309)
 - [x] [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)
+- [x] [1, 2, 3 더하기 2](https://www.acmicpc.net/problem/12101)
 - [ ] [합분해](https://www.acmicpc.net/problem/2225)
