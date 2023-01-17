@@ -15,10 +15,13 @@
 <br>
 
 ## 🐰연산
+
 - 반올림 : `round()`
-- 올림 : `math.ceil()`
-- 내림 : `math.floor()`
 - 절댓값 : `abs()`
+
+- `import math`
+    - 올림 : `math.ceil()`
+    - 내림 : `math.floor()`
 
 <br>
 
