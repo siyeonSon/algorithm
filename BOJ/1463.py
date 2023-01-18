@@ -6,8 +6,8 @@ input = sys.stdin.readline
 
 n = int(input())
 
-d = [0, 1, 1, 1]  # 0 1 2 3
-for i in range(4, n+1) :
+d = [0, 0]  # 0 1
+for i in range(2, n+1) :
     compare = []
     if i%3 == 0 :
         compare.append(d[i//3])
