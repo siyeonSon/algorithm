@@ -14,9 +14,11 @@
 - [x] [카드 구매하기](https://www.acmicpc.net/problem/11052)
 - [x] [카드 구매하기2](https://www.acmicpc.net/problem/16194)
 - [x] [설탕 배달](https://www.acmicpc.net/problem/2839)
-
-
 - [x] [동물원](https://www.acmicpc.net/problem/1309)
-
 - [x] [RGB거리](https://www.acmicpc.net/problem/1149)
 - [ ] [합분해](https://www.acmicpc.net/problem/2225)
+
+---
+
+### 브루트 포스
+- [x] [일곱 난쟁이](https://www.acmicpc.net/problem/2309)
