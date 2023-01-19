@@ -18,6 +18,13 @@
 
 <br>
 
+## 🐰순열(P), 조합(C)
+`from itertools`
+`itertools.permutations(nums ,2)` → nP2
+`itertools.combinations(nums ,2)` → nC2
+
+<br>
+
 ## 🐰연산
 
 - 반올림 : `round()`
