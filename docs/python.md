@@ -21,8 +21,8 @@
 ## 🐰수학
 ### 🥕순열(P), 조합(C)
 - `from itertools import permutations, combinations`
-    - `itertools.permutations(nums ,2)` → nP2
-    - `itertools.combinations(nums ,2)` → nC2
+    - `permutations(nums ,2)` → nP2
+    - `combinations(nums ,2)` → nC2
 
 <br>
 
