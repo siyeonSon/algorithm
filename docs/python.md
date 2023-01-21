@@ -23,6 +23,8 @@
 - `from itertools import permutations, combinations`
     - `permutations(nums ,2)` → nP2
     - `combinations(nums ,2)` → nC2
+- tuple 형태이므로 유의할 것!
+    - 길이 : `len(list(permutations(nums ,2))`
 
 <br>
 
