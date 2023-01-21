@@ -20,7 +20,7 @@
 
 ## 🐰수학
 ### 🥕순열(P), 조합(C)
-- `from itertools`
+- `from itertools import permutations, combinations`
     - `itertools.permutations(nums ,2)` → nP2
     - `itertools.combinations(nums ,2)` → nC2
 
