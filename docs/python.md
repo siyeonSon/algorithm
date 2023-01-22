@@ -20,9 +20,10 @@
 
 ## 🐰수학
 ### 🥕순열(P), 조합(C)
-- `from itertools import permutations, combinations`
-    - `permutations(nums ,2)` → nP2
-    - `combinations(nums ,2)` → nC2
+- `from itertools`
+    - `itertools.permutations(nums ,2)` → nP2
+    - `itertools.combinations(nums ,2)` → nC2
+    - `itertools.combinations_with_replacement(nums, 2)` -> nH2
 - tuple 형태이므로 유의할 것!
     - 길이 : `len(list(permutations(nums ,2))`
 
