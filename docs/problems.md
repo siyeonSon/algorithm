@@ -25,3 +25,14 @@
 - [x] [날짜 계산](https://www.acmicpc.net/problem/1476)
 - [x] [수 이어쓰기](https://www.acmicpc.net/problem/1748)
 - [x] [카잉 달력](https://www.acmicpc.net/problem/6064)
+
+---
+
+### 순열
+- [ ] [다음 순열](https://www.acmicpc.net/problem/10972)
+- [x] [N과 M(3)](https://www.acmicpc.net/problem/15651)
+
+---
+
+### 그래프 탐색(DFS, BFS)
+- [ ] [미로 탐색](https://www.acmicpc.net/problem/2178)
