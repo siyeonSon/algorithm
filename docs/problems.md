@@ -35,6 +35,7 @@
 
 ### 브루트 포스 - N과 M
 - [x] [N과 M(1)](https://www.acmicpc.net/problem/15649)
+- [x] [N과 M(2)](https://www.acmicpc.net/problem/15650)
 - [x] [N과 M(3)](https://www.acmicpc.net/problem/15651)
 - [x] [N과 M(4)](https://www.acmicpc.net/problem/15652)
 
