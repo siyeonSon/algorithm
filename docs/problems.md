@@ -31,6 +31,7 @@
 ### 순열
 - [ ] [다음 순열](https://www.acmicpc.net/problem/10972)
 - [x] [N과 M(3)](https://www.acmicpc.net/problem/15651)
+- [x] [N과 M(4)](https://www.acmicpc.net/problem/15652)
 
 ---
 
