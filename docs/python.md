@@ -18,6 +18,35 @@
 
 <br>
 
+### 🥕2차원 배열 초기화
+<details>
+<summary>파이썬의 얕은 복사</summary>
+- 4째 줄 값으로 **[[0, 1, 0], [0, 0, 0], [0, 0, 0]]** 가 나와야 하는 게 아닌가?
+
+```python
+board = [[0, 0, 0]] * 3
+print(board)  # result : [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+
+board[0][1] = 1
+print(board)  # result : [[0, 1, 0], [0, 1, 0], [0, 1, 0]]
+```
+
+- 원인 : 파이썬의 얕은 복사
+    - 파이썬이 * 연산자로 초기화를 할 때 값을 각각 할당하는 게 아니라, 하나의 객체를 생성해 놓고 모두가 이를 가리키는 '얕은 복사'를 진행한다
+    <img src="https://user-images.githubusercontent.com/87802191/214283464-45cc7fd9-f98f-4479-98ee-9c8c7f266c18.png"/>
+
+- 해결책 : for문 사용하기
+```python
+board = [[0] * 3 for _ in range(3)]
+print(board)  # result : [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+
+board[0][1] = 1
+print(board)  # result : [[0, 1, 0], [0, 0, 0], [0, 0, 0]]
+```
+</details>
+
+<br>
+
 ## 🐰수학
 ### 🥕순열(P), 조합(C)
 - `from itertools`
