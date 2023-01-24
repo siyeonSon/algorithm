@@ -5,15 +5,15 @@ import itertools
 import sys
 input = sys.stdin.readline
 
-# itertools.permutations() 사용
 n = int(input())
+
+# itertools.permutations() 사용
 nums = [i for i in range(1, n+1)]
 for per in itertools.permutations(nums, n) :
     print(*per)
 
 
 # 백트래킹 사용
-n = int(input())
 s = []
 def dfs() :
     if len(s) == n :
