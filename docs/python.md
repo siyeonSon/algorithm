@@ -1,5 +1,22 @@
 # python 문법 정리
 
+## 🐰문자열 제거
+1. replace()
+    - `str.replace(',', '')`
+    - `str.replace(',', '', 1)` : 처음에 발견되는 1개만 제거
+    - `str.replace('World,', '')` : **World** 문자열 제거
+2. sub()
+    - `re.sub(",", "", str)`
+    - `re.sub(",|He|Py", "", str)` : **, HE Py** 모두 제거
+3. 반복문
+    ```python
+    for char in str:
+    if char in "HWP":
+        result = result.replace(char, '')
+    ```
+
+<br>
+
 ## 🐰list
 - `list(str(num))` : 숫자 → 리스트
 - `array.count(str(0))` : 리스트에서 특정 값 갯수
