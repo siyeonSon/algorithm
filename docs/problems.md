@@ -31,6 +31,7 @@
 ### 브루트 포스 - 순열
 - [ ] [다음 순열](https://www.acmicpc.net/problem/10972)
 - [x] [모든 순열](https://www.acmicpc.net/problem/10974)
+- [x] [로또](https://www.acmicpc.net/problem/6603)
 
 ---
 
