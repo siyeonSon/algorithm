@@ -151,6 +151,14 @@ print(board)  # result : [[0, 1, 0], [0, 0, 0], [0, 0, 0]]
     ```
 
 <br>
+## 🐰그래프 탐색(DFS, BFS)
+- 재귀 최대 깊이 설정
+
+`import sys`
+
+`sys.setrecursionlimit(100000)`
+
+<br>
 
 ## 🐰I/O
 `import sys`
