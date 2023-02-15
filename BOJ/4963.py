@@ -4,6 +4,8 @@
 import sys
 input = sys.stdin.readline
 
+sys.setrecursionlimit(100000)
+
 dx = [1, 1, 1, 0, 0, -1, -1, -1]
 dy = [1, 0, -1, 1, -1, 1, 0, -1]
 
