@@ -45,3 +45,4 @@
 
 ### 그래프 탐색(DFS, BFS)
 - [ ] [미로 탐색](https://www.acmicpc.net/problem/2178)
+- [x] [섬의 개수](https://www.acmicpc.net/problem/4963)
