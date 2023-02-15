@@ -35,6 +35,8 @@
 
 ## 🐰2차원 배열
 `a = "*" ; print(a[0][0])` → **"*"**
+- 입력
+    - `land = [list(map(int, input().split())) for _ in range(n)]`
 
 <br>
 
