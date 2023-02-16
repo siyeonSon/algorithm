@@ -172,4 +172,4 @@ print(board)  # result : [[0, 1, 0], [0, 0, 0], [0, 0, 0]]
 
 `numbers = list(map(int, input().split()))`
 
-`n = list(input().split())`
+`n = list(input().strip())`
