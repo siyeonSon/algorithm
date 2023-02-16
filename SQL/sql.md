@@ -62,6 +62,12 @@ ORDER BY (column_name)
     - `LIKE '_라면'` : 신라면, 진라면 등
     - `LIKE '라면'` : 라면
 
+
+## 문자열 일치
+- `WHERE 라면 == '신라면'`
+- `WHERE 라면 IN ('진라면', '신라면')`
+
+
 ## 그룹화하여 조건 찾기
 - `GROUP BY column_name HAVING (조건)`
     - `WEHRE` vs `GROUP BY` :  WHERE는 그룹화 하기 전이고, HAVING은 그룹화 후에 조건
