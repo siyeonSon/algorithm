@@ -14,6 +14,8 @@ ORDER BY (column_name)
 - `ROUND()` : 소수 첫번째 자리에서 반올림
     - `ROUND(1)` : 소수 두번째 자리에서 반올림
 - `MAX()` : 최댓값
+- `MIN()` : 최솟값
+- `SUM()` : 합계
 
 <br>
 
@@ -70,3 +72,8 @@ ORDER BY (column_name)
 ## 조건문
 - `IFNULL()`
     - `IFNULL(num, 'NONE')` : num이 null일 경우 'NONE'으로 출력
+
+<br>
+
+## limit
+- `LIMIT 1` : 1개만 출력
