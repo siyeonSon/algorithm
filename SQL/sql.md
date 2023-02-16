@@ -9,6 +9,15 @@ ORDER BY (column_name)
 
 <br>
 
+## JOIN ON
+```SQL
+SELECT * FROM table1 A
+JOIN table2 B ON A.id = B.id
+```
+
+
+<br>
+
 ## 숫자
 - `AVG()` : 평균
 - `ROUND()` : 소수 첫번째 자리에서 반올림
