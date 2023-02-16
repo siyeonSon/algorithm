@@ -14,6 +14,9 @@
     if char in "HWP":
         result = result.replace(char, '')
     ```
+4. strip
+    - `str.strip()` : 공백 제거
+    - `str.strip('a')` : 문자 제거
 
 <br>
 
