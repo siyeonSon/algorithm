@@ -12,6 +12,8 @@ ORDER BY (column_name)
 ## 숫자
 - `AVG()` : 평균
 - `ROUND()` : 소수 첫번째 자리에서 반올림
+    - `ROUND(1)` : 소수 두번째 자리에서 반올림
+- `MAX()` : 최댓값
 
 <br>
 
