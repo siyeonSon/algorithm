@@ -3,3 +3,4 @@
 ## 📂docs
 - [🐰python 문법 정리](./docs/python.md)
 - [📜풀이한 문제들](./docs/problems.md)
+- [🔢SQL 문법 정리](./SQL/sql.md)
