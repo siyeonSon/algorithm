@@ -154,12 +154,30 @@ print(board)  # result : [[0, 1, 0], [0, 0, 0], [0, 0, 0]]
     ```
 
 <br>
+
 ## 🐰그래프 탐색(DFS, BFS)
 - 재귀 최대 깊이 설정
 
 `import sys`
 
 `sys.setrecursionlimit(100000)`
+
+<br>
+
+## 🐰소수
+- 에라토스테네스의 체 ([참고](https://velog.io/@sians0209/boj2960))
+```python
+def eratos(num) :
+    prime_numbers = []  # 소수
+    visited = [False] * (num+1)  # 해당 숫자를 방문했는지 확인
+
+    for i in range(2, len(visited)) :
+        if visited[i] == False :
+            prime_numbers.append(i)
+            for j in range(i, len(visited), i) :
+                visited[j] = True
+    return prime_numbers
+```
 
 <br>
 
