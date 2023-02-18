@@ -194,3 +194,5 @@ def prime_list(n):
 `numbers = list(map(int, input().split()))`
 
 `n = list(input().strip())` (각각의 수들이 붙어서 입력으로 주어진 경우)
+
+`print(*answer, sep='\n')`
