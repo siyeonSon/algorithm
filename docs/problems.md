@@ -48,3 +48,10 @@
 ### 그래프 탐색(DFS, BFS)
 - [ ] [미로 탐색](https://www.acmicpc.net/problem/2178)
 - [x] [섬의 개수](https://www.acmicpc.net/problem/4963)
+
+---
+
+### 투 포인터
+- [ ] [다이어트](https://www.acmicpc.net/problem/1484)
+- [ ] [회전 초밥](https://www.acmicpc.net/problem/2531)
+- [x] [소수의 연속합](https://www.acmicpc.net/problem/1644)
