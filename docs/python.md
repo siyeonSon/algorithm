@@ -167,16 +167,19 @@ print(board)  # result : [[0, 1, 0], [0, 0, 0], [0, 0, 0]]
 ## 🐰소수
 - 에라토스테네스의 체 ([참고](https://velog.io/@sians0209/boj2960))
 ```python
-def eratos(num) :
-    prime_numbers = []  # 소수
-    visited = [False] * (num+1)  # 해당 숫자를 방문했는지 확인
+def prime_list(n):
+    # 에라토스테네스의 체 초기화: n개 요소에 True 설정(소수로 간주)
+    sieve = [True] * n
 
-    for i in range(2, len(visited)) :
-        if visited[i] == False :
-            prime_numbers.append(i)
-            for j in range(i, len(visited), i) :
-                visited[j] = True
-    return prime_numbers
+    # n의 최대 약수가 sqrt(n) 이하이므로 i=sqrt(n)까지 검사
+    m = int(n ** 0.5)
+    for i in range(2, m + 1):
+        if sieve[i] == True:           # i가 소수인 경우
+            for j in range(i+i, n, i): # i이후 i의 배수들을 False 판정
+                sieve[j] = False
+
+    # 소수 목록 산출
+    return [i for i in range(2, n) if sieve[i] == True]
 ```
 
 <br>
