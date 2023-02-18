@@ -3,7 +3,9 @@
 ### 스택, 힙
 - [x] [단어 뒤집기](https://www.acmicpc.net/problem/9093)
 - [x] [괄호](https://www.acmicpc.net/problem/9012)
+- [x] [그룹 단어 체커](https://www.acmicpc.net/problem/1316)
 
+---
 
 ### DP
 - [x] [1로 만들기](https://www.acmicpc.net/problem/1463)
