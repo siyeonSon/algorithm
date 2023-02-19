@@ -92,3 +92,6 @@ JOIN table2 B ON A.id = B.id
 
 ## limit
 - `LIMIT 1` : 1개만 출력
+
+## count
+- `COUNT(*)` : 수 세기
