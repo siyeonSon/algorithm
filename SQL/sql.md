@@ -78,6 +78,9 @@ JOIN table2 B ON A.id = B.id
 
 
 ## 그룹화하여 조건 찾기
+- 그룹화
+    -  COUNT 함수로 데이터를 조회하면 전체 갯수만을 가져옴
+    - 유형별로 갯수를 알고 싶을 때는 컬럼에 데이터를 그룹화 할 수 있는 GROUP BY를 사용함
 - `GROUP BY column_name HAVING (조건)`
     - `WEHRE` vs `GROUP BY` :  WHERE는 그룹화 하기 전이고, HAVING은 그룹화 후에 조건
 - 예: `GROUP BY a.id HAVING a.address LIKE '서울%'`
