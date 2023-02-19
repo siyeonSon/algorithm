@@ -1,4 +1,8 @@
 ## 📜풀이한 문제들
+### 숫자
+- [x] [물병](https://www.acmicpc.net/problem/1052)
+
+---
 
 ### 스택, 힙
 - [x] [단어 뒤집기](https://www.acmicpc.net/problem/9093)
@@ -20,7 +24,6 @@
 - [x] [동물원](https://www.acmicpc.net/problem/1309)
 - [x] [RGB거리](https://www.acmicpc.net/problem/1149)
 - [ ] [합분해](https://www.acmicpc.net/problem/2225)
-
 
 ---
 
