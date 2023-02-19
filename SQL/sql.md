@@ -98,3 +98,8 @@ JOIN table2 B ON A.id = B.id
 
 ## 중복 제거
 - `DISTINCT column_name`
+
+## IS NULL
+- NULL 인 값 출력
+    - `WHERE NAME IS NULL`
+    - `WHERE NAME = 'NULL'`
