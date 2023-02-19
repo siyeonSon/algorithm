@@ -95,3 +95,6 @@ JOIN table2 B ON A.id = B.id
 
 ## count
 - `COUNT(*)` : 수 세기
+
+## 중복 제거
+- `DISTINCT column_name`
