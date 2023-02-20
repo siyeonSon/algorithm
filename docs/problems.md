@@ -1,6 +1,12 @@
 ## 📜풀이한 문제들
 ### 숫자
 - [x] [물병](https://www.acmicpc.net/problem/1052)
+- [ ] [음식 평론가](https://www.acmicpc.net/problem/1188)
+
+---
+
+### 정렬
+- [x] [중복 빼고 정렬하기](https://www.acmicpc.net/problem/10867)
 
 ---
 
