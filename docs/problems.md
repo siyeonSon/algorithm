@@ -47,6 +47,7 @@
 - [x] [모든 순열](https://www.acmicpc.net/problem/10974)
 - [x] [로또](https://www.acmicpc.net/problem/6603)
 - [x] [부분수열의 합](https://www.acmicpc.net/problem/1182)
+- [x] [스타트와 링크](https://www.acmicpc.net/problem/14889)
 
 ---
 
