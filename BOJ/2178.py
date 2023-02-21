@@ -6,8 +6,8 @@ input = sys.stdin.readline
 from collections import deque
 sys.setrecursionlimit(1000000)
 
-dx = [1, 1, -1, -1]
-dy = [1, -1, 1, -1]
+dx = [1, 0, -1, 0]
+dy = [0, 1, 0, -1]
 
 n, m = map(int, input().split())
 maze = [list(map(int, input().strip())) for _ in range(n)]
@@ -23,8 +23,8 @@ while queue:
         break
     for i in range(4) :
         nx, ny = x + dx[i], y + dy[i]
-        if 0 <= nx < n and 0 <= ny < m :      
-            if visited[nx][ny] == False and maze[nx][ny] == 1 :
+        if 0 <= nx < n and 0 <= ny < m :
+            if maze[nx][ny] == 1 and not visited[nx][ny] :
                 maze[nx][ny] = maze[x][y] + 1  # 이동할 자리에 현재 누적된 값 + 1
                 visited[nx][ny] = True
                 queue.append([nx, ny])
