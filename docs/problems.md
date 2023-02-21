@@ -65,6 +65,8 @@
 ---
 
 ### 그래프 탐색(DFS, BFS)
+- [x] [바이러스](https://www.acmicpc.net/problem/2606)
+- [ ] [DFS와 BFS](https://www.acmicpc.net/problem/1260)
 - [ ] [미로 탐색](https://www.acmicpc.net/problem/2178)
 - [x] [섬의 개수](https://www.acmicpc.net/problem/4963)
 
