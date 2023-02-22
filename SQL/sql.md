@@ -73,7 +73,7 @@ JOIN table2 B ON A.id = B.id
 
 
 ## 문자열 일치
-- `WHERE 라면 == '신라면'`
+- `WHERE 라면 = '신라면'`
 - `WHERE 라면 IN ('진라면', '신라면')`
 
 
