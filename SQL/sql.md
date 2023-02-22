@@ -25,6 +25,7 @@ JOIN table2 B ON A.id = B.id
 - `MAX()` : 최댓값
 - `MIN()` : 최솟값
 - `SUM()` : 합계
+- `COUNT(*)` : 수 세기 (GROUP BY 와 함께 쓰임)
 
 <br>
 
@@ -76,15 +77,6 @@ JOIN table2 B ON A.id = B.id
 - `WHERE 라면 = '신라면'`
 - `WHERE 라면 IN ('진라면', '신라면')`
 
-
-## 그룹화하여 조건 찾기
-- 그룹화
-    -  COUNT 함수로 데이터를 조회하면 전체 갯수만을 가져옴
-    - 유형별로 갯수를 알고 싶을 때는 컬럼에 데이터를 그룹화 할 수 있는 GROUP BY를 사용함
-- `GROUP BY column_name HAVING (조건)`
-    - `WEHRE` vs `GROUP BY` :  WHERE는 그룹화 하기 전이고, HAVING은 그룹화 후에 조건
-- 예: `GROUP BY a.id HAVING a.address LIKE '서울%'`
-
 <br>
 
 ## 조건문
@@ -95,9 +87,6 @@ JOIN table2 B ON A.id = B.id
 
 ## limit
 - `LIMIT 1` : 1개만 출력
-
-## count
-- `COUNT(*)` : 수 세기
 
 ## 중복 제거
 - `DISTINCT column_name`
