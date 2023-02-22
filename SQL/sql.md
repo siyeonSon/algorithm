@@ -52,6 +52,9 @@ JOIN table2 B ON A.id = B.id
     - `WHERE AGE == 3` (❌)
 - `<>` 같지 않음
     - `!=` 은 사용가능하지만, ISO 표준이 아님
+- `BETWEEN a AND b`
+    - a <= _ <= b 일 때
+    - 예: `WHERE HOUR(DATETIME) BETWEEN 9 AND 19`
 
 <br>
 
