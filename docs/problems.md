@@ -18,6 +18,11 @@
 
 ---
 
+### 그리디
+- [x] [시간 관리](https://www.acmicpc.net/problem/1263)
+
+---
+
 ### DP
 - [x] [다리 놓기](https://www.acmicpc.net/problem/1010)
 - [x] [1로 만들기](https://www.acmicpc.net/problem/1463)
