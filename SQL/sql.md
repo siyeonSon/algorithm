@@ -96,12 +96,16 @@ JOIN table2 B ON A.id = B.id
     - `WHERE NAME IS NULL`
     - `WHERE NAME = 'NULL'`
 
+## 특정 순서대로 출력
+- 예: `ORDER BY FIELD(STRING, 'C', 'B', 'A')`
+    - C, B, A 순으로 출력
+
 <br>
 
 ## GROUP BY
 - 그룹화
-    - COUNT 함수로 데이터를 조회하면 전체 갯수만을 가져옴
-    - 유형별로 갯수를 알고 싶을 때는 컬럼에 데이터를 그룹화 할 수 있는 GROUP BY를 사용함
+    - 유형별로 갯수 등을 알고 싶을 때는 컬럼에 데이터를 그룹화 할 수 있는 GROUP BY를 사용함
+    - 해당 컬럼의 카테고리로 반복문을 돈다고 생각할 것
 - `GROUP BY column_name HAVING (조건)`
     - `WEHRE` vs `HAVING` :  WHERE는 그룹화 하기 전이고, HAVING은 그룹화 후에 조건
     - 예: `SELECT ORDER_DATE FROM ORDER WHERE ORDER_DATE > DATE('1996-12-31') GROUP BY ORDERDATE HAVING COUNT(ORDER_DATE) >= 2`
