@@ -95,3 +95,17 @@ JOIN table2 B ON A.id = B.id
 - NULL 인 값 출력
     - `WHERE NAME IS NULL`
     - `WHERE NAME = 'NULL'`
+
+<br>
+
+## GROUP BY
+- 그룹화
+    - COUNT 함수로 데이터를 조회하면 전체 갯수만을 가져옴
+    - 유형별로 갯수를 알고 싶을 때는 컬럼에 데이터를 그룹화 할 수 있는 GROUP BY를 사용함
+- `GROUP BY column_name HAVING (조건)`
+    - `WEHRE` vs `HAVING` :  WHERE는 그룹화 하기 전이고, HAVING은 그룹화 후에 조건
+    - 예: `SELECT ORDER_DATE FROM ORDER WHERE ORDER_DATE > DATE('1996-12-31') GROUP BY ORDERDATE HAVING COUNT(ORDER_DATE) >= 2`
+    - 1996-12-31 이후의 데이터 중 주문 개수가 2개 이상인 주문 날짜들을 조회
+- GROUP BY와 DISTINCT 함께 활용하기
+    - `SELECT COUNTRY, COUNT(DISTINCT CITY) FROM CUSTOMERS GROUP BY COUNTRY`
+    - COUNTRY에서 중복되지 않는 CITY 개수 출력
