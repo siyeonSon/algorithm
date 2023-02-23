@@ -111,6 +111,7 @@ JOIN table2 B ON A.id = B.id
 - 그룹화
     - 유형별로 갯수 등을 알고 싶을 때는 컬럼에 데이터를 그룹화 할 수 있는 GROUP BY를 사용함
     - 해당 컬럼의 카테고리로 반복문을 돈다고 생각할 것
+        - 예를 들어 `GROUP BY DATE`를 하면 DATE에 따른 `MIN(PRICE)`(최소가격), `COUNT(*)`(개수) 등을 반복문 돌려서 DATE를 기준으로 표를 출력한다고 생각할 것
 - `GROUP BY column_name HAVING (조건)`
     - `WEHRE` vs `HAVING` :  WHERE는 그룹화 하기 전이고, HAVING은 그룹화 후에 조건
     - 예: `SELECT ORDER_DATE FROM ORDER WHERE ORDER_DATE > DATE('1996-12-31') GROUP BY ORDERDATE HAVING COUNT(ORDER_DATE) >= 2`
@@ -151,3 +152,7 @@ WHERE Price < AVG(Price) (
   SELECT AVG(Price) FROM Products P2
   WHERE P2.CategoryID = P1.CategoryID)
 ```
+
+<br>
+
+## JOIN
