@@ -118,3 +118,36 @@ JOIN table2 B ON A.id = B.id
 - GROUP BY와 DISTINCT 함께 활용하기
     - `SELECT COUNTRY, COUNT(DISTINCT CITY) FROM CUSTOMERS GROUP BY COUNTRY`
     - COUNTRY에서 중복되지 않는 CITY 개수 출력
+
+<br>
+
+## 서브 쿼리
+- 다른 테이블로부터 정보를 가져오고 싶을 때 사용함
+- `SUM()`, `MAX()`, `AVG()` 등과 같은 수학 함수 활용
+- 예: 가격이 50 이상인 상품의 카테고리 정보를 출력하기
+```sql
+SELECT CategoryID, CategoryName, Description FROM Categories
+WHERE
+  CategoryID IN
+  (SELECT CategoryID FROM Products
+  WHERE Price > 50)
+```
+- 예: 상품 정보를 출력할 때 카테고리 이름도 출력하기
+```sql
+SELECT
+  ProductID, ProductName,
+  (
+    SELECT CategoryName FROM Categories C
+    WHERE C.CategoryID = P.CategoryID
+  ) AS CategoryName
+FROM Products P
+```
+- 예: 평균 가격보다 낮은 상품들 출력하기
+```sql
+SELECT
+  ProductID, ProductName, CategoryID, Price
+FROM Products P1
+WHERE Price < AVG(Price) (
+  SELECT AVG(Price) FROM Products P2
+  WHERE P2.CategoryID = P1.CategoryID)
+```
