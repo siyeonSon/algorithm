@@ -15,14 +15,13 @@ SELECT * FROM table1 A
 JOIN table2 B ON A.id = B.id
 ```
 
-
 <br>
 
 ## 숫자
 - `AVG()` : 평균
 - `ROUND()` : 소수 첫번째 자리에서 반올림
     - `ROUND(1.25, 1)` : **1.3** -> 소수 두번째 자리에서 반올림
-- `TRUNCATE()` : 소수점을 버림
+- `TRUNCATE( , 0)` : 소수점을 버림(입력 파라미터가 무조건 2개)
     - `TRUNCATE(1.25, 1)` : **1.2** -> 소수 첫째 자리까지 나타냄
 - `MAX()` : 최댓값
 - `MIN()` : 최솟값
