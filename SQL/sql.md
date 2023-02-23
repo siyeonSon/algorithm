@@ -171,3 +171,54 @@ JOIN Products P ON C.CategoryID = P.CategoryID
     SELECT E1.LastName, E2.FirstName FROM Employees E1
     CROSS JOIN Employees E2
     ```
+
+<br>
+
+## 집합
+- 합집합
+    - `UNION` : 중복을 제거한 집합
+    - `UNION ALL` : 중복을 제거하지 않은 집합
+- 공급자와 수요자를 함께 이름 순으로 출력
+```sql
+SELECT CustomerName AS Name, City, Country, 'CUSTOMER' FROM Customers
+UNION
+SELECT SupplierName, City, Country, 'SUPPLIER' FROM Suppliers
+ORDER BY Name;
+```
+- 합집합(UNION)
+```sql
+SELECT CategoryID AS ID FROM Categories
+WHERE CategoryID > 4
+UNION
+SELECT EmployeeID AS ID FROM Employees
+WHERE EmployeeID % 2 = 0;
+```
+- 교집합(WHERE AND)
+```sql
+SELECT CategoryID AS ID FROM Categories C, Employees E
+WHERE
+  C.CategoryID > 4
+  AND E.EmployeeID % 2 = 0
+  AND C.CategoryID = E.EmployeeID
+```
+- 차집합(NOT IN)
+```sql
+SELECT CategoryID AS ID FROM Categories
+WHERE 
+  CategoryID > 4
+  AND CategoryID NOT IN (
+    SELECT EmployeeID
+    FROM Employees
+    WHERE EmployeeID % 2 = 0)
+```
+- 대칭차집합(UNION ALL)
+```sql
+SELECT ID FROM (
+  SELECT CategoryID AS ID FROM Categories
+  WHERE CategoryID > 4
+  UNION ALL
+  SELECT EmployeeID AS ID FROM Employees
+  WHERE EmployeeID % 2 = 0
+) AS Temp 
+GROUP BY ID HAVING COUNT(*) = 1  -- 중복되는 데이터들 제거
+```
