@@ -45,6 +45,7 @@
 - [x] [수 이어쓰기](https://www.acmicpc.net/problem/1748)
 - [x] [기타줄](https://www.acmicpc.net/problem/1049)
 - [x] [카잉 달력](https://www.acmicpc.net/problem/6064)
+- [x] [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018)
 
 ---
 
@@ -75,6 +76,8 @@
 - [x] [DFS와 BFS](https://www.acmicpc.net/problem/1260)
 - [ ] [미로 탐색](https://www.acmicpc.net/problem/2178)
 - [x] [섬의 개수](https://www.acmicpc.net/problem/4963)
+
+- [x] [타켓 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)
 
 ---
 
