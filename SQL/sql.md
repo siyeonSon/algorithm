@@ -155,4 +155,19 @@ WHERE Price < AVG(Price) (
 
 <br>
 
-## JOIN
+## JOIN ON
+- TABLE끼리 합칠 때
+- 내부 조인
+```sql
+SELECT * FROM Categories C
+JOIN Products P ON C.CategoryID = P.CategoryID
+```
+- 외부 조인(LEFT/RIGHT JOIN)
+    - 내부 조인의 경우는 일치하지 않는 데이터는 검색하지 않았지만, 외부 조인의 경우 일치하지 않는 경우도 데이터로 받아옴
+    ![image](https://user-images.githubusercontent.com/87802191/220915388-94a706a0-7216-4767-a6f2-9d0fa4667f99.png)
+- 교차 조인(CROSS JOIN)
+    - 조건 없이 모든 조합 반환(A * B)
+    ```sql
+    SELECT E1.LastName, E2.FirstName FROM Employees E1
+    CROSS JOIN Employees E2
+    ```
