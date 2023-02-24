@@ -8,6 +8,7 @@
 ### 구현
 - [x] [중복 빼고 정렬하기](https://www.acmicpc.net/problem/10867)
 - [x] [한 줄로 서기](https://www.acmicpc.net/problem/1138)
+- [x] [팰린드롬 만들기](https://www.acmicpc.net/problem/1254)
 
 ---
 
