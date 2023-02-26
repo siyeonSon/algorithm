@@ -1,20 +1,20 @@
-# 2023-01-21 18:58:21
+# 2023-02-26 21:55:57
 # https://www.acmicpc.net/problem/10972
+# https://velog.io/@sians0209/boj10972
 
-from itertools import permutations
 import sys
 input = sys.stdin.readline
 
 n = int(input())
-nums = tuple(map(int, input().split()))
+m = list(map(int, input().split()))
 
-pers = list(permutations([i+1 for i in range(n)], n))
-length = len(pers)
-for i in range(length) :
-    if i == length-1 :
-        print(-1)
-        break
-    if pers[i] == nums :
-        for p in pers[i+1] :
-            print(p, end=" ")
-        break
+for i in range(n-1, 0, -1) :
+    if m[i-1] < m[i] : # 앞 < 뒤
+        for j in range(n-1, 0, -1) :
+            if m[i-1] < m[j] :
+                m[i-1], m[j] = m[j], m[i-1]
+                m = m[:i] + sorted(m[i:])
+                print(*m)
+                exit()  # 코드 종료
+
+print(-1)  # 코드 종료 발생 X -> -1 출력
