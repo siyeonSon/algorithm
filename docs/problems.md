@@ -22,6 +22,8 @@
 
 ### 그리디
 - [x] [시간 관리](https://www.acmicpc.net/problem/1263)
+- [x] [행렬](https://www.acmicpc.net/problem/1080)
+- [x] [체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862)
 
 ---
 

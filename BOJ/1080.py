@@ -6,58 +6,28 @@ import sys
 input = sys.stdin.readline
 
 n, m = map(int, input().split())
-a = [list(input().strip()) for _ in range(n)]
-b = [list(input().strip()) for _ in range(n)]
+a = [list(map(int, input().strip())) for _ in range(n)]
+b = [list(map(int, input().strip())) for _ in range(n)]
 
-# (i,j) 위치가 서로 같은지 비교
-same = [[False]*m for _ in range(n)]
-for i in range(n) :
-    for j in range(m) :
-        if a[i][j] == b[i][j] :
-            same[i][j] = True
+# (x, y)를 기준으로 3X3 행렬 원소 뒤집기
+def reverse(x, y) :
+    for i in range(x, x+3) :
+        for j in range(y, y+3) :
+            a[i][j] = 1 - a[i][j]
 
-# 그래프 탐색 - '섬의 개수(4963)' 문제와 유사
-dx = [1, -1, 0, 0]
-dy = [0, 0, 1, -1]
+# a와 b가 같은 행렬인지 비교
+def check() :
+    for i in range(n) :
+        for j in range(m) :
+            if a[i][j] != b[i][j] :
+                return False
+    return True
 
-def dfs(x, y) :
-    global visited
-    visited[x][y] = True
-    for i in range(4) :
-        nx, ny = x+dx[i], y+dy[i]
-        if 0 <= nx < n and 0 <= ny < m :
-            if not same[nx][ny] and not visited[nx][ny] :
-                dfs(nx, ny)
-    return 1
-
-def bfs(x, y) :
-    global visited
-    queue = deque()
-    queue.append([x,y])
-    while queue :
-        x, y = queue.popleft()
-        for i in range(4) :
-            nx, ny = x+dx[i], y+dy[i]
-            if 0 <= nx < n and 0 <= ny < m :
-                if not same[nx][ny] and not visited[nx][ny] :
-                    visited[nx][ny] = True
-                    queue.append([nx, ny])
-    return 1
-
-# DFS로 탐색
 ans = 0
-visited = [[False]*m for _ in range(n)]
-for i in range(n) :
-    for j in range(m) :
-        if not same[i][j] and not visited[i][j] :
-            ans += dfs(i, j)
+for i in range(n-2) :
+    for j in range(m-2) :
+        if a[i][j] != b[i][j] :
+            reverse(i, j)
+            ans += 1
 
-# BFS로 탐색
-ans = 0
-visited = [[False]*m for _ in range(n)]
-for i in range(n) :
-    for j in range(m) :
-        if not same[i][j] and not visited[i][j] :
-            ans += bfs(i, j)
-
-print(ans)
+print(ans if check() else -1)
