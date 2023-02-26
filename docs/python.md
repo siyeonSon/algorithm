@@ -190,6 +190,13 @@ def prime_list(n):
 
 <br>
 
+## 🐰exit()
+- 코드 종료
+- 값을 찾을 수 없을 때 -1을 출력하야 하는 경우 유용함
+    - `find_answer = True`와 같은 변수를 만들지 않아도 됨
+
+<br>
+
 ## 🐰I/O
 `import sys`
 
