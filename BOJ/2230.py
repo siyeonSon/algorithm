@@ -8,15 +8,18 @@ n, m = map(int, input().split())
 a = []
 for _ in range(n) :
     a.append(int(input()))
+a.sort()
 
-sorted(a)
-ans = a[-1] - a[0]
-for i in range(n) :
-    for j in range(i, n) :
-        diff = a[j] - a[i]
-        if diff > m :
-            ans = min(diff, ans)
-        elif diff == m :
-            ans = m
-            break
-print(ans)
+ans = []
+left, right = 0, 1
+while True :
+    if right >= n or left > right :
+        break
+    diff = a[right] - a[left]
+    if diff >= m :
+        ans.append(diff)
+        left += 1
+    else :
+        right += 1
+
+print(min(ans))
