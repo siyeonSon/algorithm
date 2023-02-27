@@ -1,7 +1,8 @@
 # 2023-02-27 15:11:27
 # https://www.acmicpc.net/problem/1622
 
-## sys.stdin.readline하면 출력 초과남 - 왜?
+## sys.stdin.readline하면 출력 초과남
+## 이유: https://www.acmicpc.net/board/view/112040#comment-176511
 
 # 정답 1
 while True :
