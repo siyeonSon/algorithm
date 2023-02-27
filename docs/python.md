@@ -5,6 +5,7 @@
     - `str.replace(',', '')`
     - `str.replace(',', '', 1)` : 처음에 발견되는 1개만 제거
     - `str.replace('World,', '')` : **World** 문자열 제거
+    - list에 사용 불가. 문자열에만 사용 가능
 2. sub()
     - `re.sub(",", "", str)`
     - `re.sub(",|He|Py", "", str)` : **, HE Py** 모두 제거
