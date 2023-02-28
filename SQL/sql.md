@@ -221,3 +221,22 @@ SELECT ID FROM (
 ) AS Temp 
 GROUP BY ID HAVING COUNT(*) = 1  -- 중복되는 데이터들 제거
 ```
+
+<br>
+
+## CASE WHEN ~ THEN ~ ELSE ~ END
+```sql
+CASE
+    WHEN '조건' THEN '출력할 데이터'
+    ELSE '출력할 데이터'
+END
+```
+
+```sql
+CASE 
+    WHEN OUT_DATE <= DATE('2022-05-01') THEN '출고완료'
+    ELSE CASE WHEN OUT_DATE IS NULL THEN '출고미정'
+    ELSE '출고대기' 
+    END
+END
+```
