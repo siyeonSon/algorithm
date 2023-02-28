@@ -41,6 +41,7 @@
 - [x] [동물원](https://www.acmicpc.net/problem/1309)
 - [x] [RGB거리](https://www.acmicpc.net/problem/1149)
 - [ ] [합분해](https://www.acmicpc.net/problem/2225)
+- [x] [무한 수열](https://www.acmicpc.net/problem/1351)
 
 ---
 
