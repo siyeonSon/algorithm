@@ -8,6 +8,10 @@ answer = []
 n, m = map(int, input().split())
 board = [list(input().strip()) for _ in range(n)]
 
+# 동남서북
+dx = [0, 1, 0, -1]
+dy = [1, 0, -1, 0]
+
 # * 사용 여부 확인
 visited = [[0]*m for _ in range(n)]
 for i in range(n) :
@@ -20,25 +24,25 @@ for i in range(n) :
 def count_star(x, y, dx, dy, cnt) :  # 중심(x, y), 탐색 방향(dx, dy), 증가값(cnt)
     while True :
         nx, ny = x+cnt*dx, y+cnt*dy
-        if nx >= n or nx < 0 or ny >= m or ny <0  or board[nx][ny] == '.' :
-            return cnt-1
-        cnt += 1
+        if 0 <= nx < n and 0 <= ny < m and board[nx][ny] == '*' :
+            cnt += 1
+            continue
+        return cnt-1
 
 
 # 동서남북 십자가가 되는가?
 def cross(x, y) :
-    east = count_star(x, y, 0, 1, 1)  # 동(0, 1)
-    south = count_star(x, y, 1, 0, 1)  # 남(1, 0)
-    west = count_star(x, y, 0, -1, 1)  # 서(0, -1)
-    north = count_star(x, y, -1, 0, 1)  # 북(-1, 0)
+    compass = []
+    for i in range(4) :
+        compass.append(count_star(x, y, dx[i], dy[i], 1))
+    
+    s = min(compass)  # 십자가의 길이
 
-    # 십자가의 길이
-    s = min(east, south, west, north)
-
+    # * 사용 여부 체크
     if s > 0 :
-        # * 사용 여부 체크
         for i in range(s+1) :
-            visited[x][y+i], visited[x+i][y], visited[x][y-i], visited[x-i][y] = 0, 0, 0, 0
+            for j in range(4) :
+                visited[x+i*dx[j]][y+i*dy[j]] = 0
     
     # 정답에 추가
     for j in range(s, 0, -1) :
