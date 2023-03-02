@@ -12,6 +12,7 @@
 - [x] [팰린드롬 만들기](https://www.acmicpc.net/problem/1254)
 - [x] [Z](https://www.acmicpc.net/problem/1074)
 - [x] [음하철도 구구팔](https://www.acmicpc.net/problem/1393)
+- [x] [십자가 찾기](https://www.acmicpc.net/problem/16924)
 
 ---
 
@@ -63,6 +64,7 @@
 - [x] [로또](https://www.acmicpc.net/problem/6603)
 - [x] [부분수열의 합](https://www.acmicpc.net/problem/1182)
 - [x] [스타트와 링크](https://www.acmicpc.net/problem/14889)
+- [ ] [차트](https://www.acmicpc.net/problem/1239)
 
 ---
 
