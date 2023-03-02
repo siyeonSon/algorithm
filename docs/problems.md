@@ -13,6 +13,7 @@
 - [x] [Z](https://www.acmicpc.net/problem/1074)
 - [x] [음하철도 구구팔](https://www.acmicpc.net/problem/1393)
 - [x] [십자가 찾기](https://www.acmicpc.net/problem/16924)
+- [x] [십자가 2개 놓기](https://www.acmicpc.net/problem/17085)
 
 ---
 
