@@ -240,3 +240,28 @@ CASE
     END
 END
 ```
+
+<br>
+
+## 문자열
+### 합치기 - CONCAT(A, B, C)
+- `SELECT CONCAT("1","-","2")` -> '1-2'
+- `SELECT CONCAT(fist_name, last_name)` -> 'GildongHong'
+- `SELECT CONCAT(first_name, " ", last_name)` -> 'Gildong Hong'
+
+### 자르기 - SUBSTR(str, pos), SUBSTR(str, pos, len), SUBSTRING(str, pos), SUBSTRING(str, pos, len), LEFT(str, len), RIGHT(str, len), MID(str, pos, len)
+- `SELECT SUBSTRING('Quadratically', 5)` -> 'ratically'
+- `SELECT SUBSTRING('foobarbar' FROM 4)` -> 'barbar'
+- `SELECT SUBSTRING('Quadratically', 5, 6)` -> 'ratica'
+- `SELECT SUBSTRING('Sakila', -3)` -> 'ila'
+- `SELECT SUBSTRING('Sakila', -5, 3)` -> 'aki'
+- `SELECT SUBSTRING('Sakila' FROM -4 FOR 2)` -> 'ki'
+- `SELECT LEFT('abcdefg', 3)` -> 'abc'
+- `SELECT MID('abcdefg', 2, 4)` -> 'bcde'
+- `SELECT RIGHT('abcdefg', 3)` -> 'efg'
+
+### 대체하기 - REPLACE(str, from_str, to_str)
+- `ELECT REPLACE('www.mysql.com', 'com', 'kr')` -> www.mysql.kr
+
+### 길이 - LENGTH(str), CHAR_LENGTH(str)
+- 
