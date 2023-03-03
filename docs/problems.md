@@ -93,6 +93,7 @@
 - [x] [네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162)
 - [ ] [여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164)
 - [x] [단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163)
+- [x] [아이템 줍기](https://school.programmers.co.kr/learn/courses/30/lessons/87694)
 
 ---
 
