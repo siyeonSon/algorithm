@@ -20,9 +20,9 @@ JOIN table2 B ON A.id = B.id
 ## 숫자
 - `AVG()` : 평균
 - `ROUND()` : 소수 첫번째 자리에서 반올림
-    - `ROUND(1.25, 1)` : **1.3** -> 소수 두번째 자리에서 반올림
+    - `ROUND(1.25, 1)` : **1.3** -> 소수 첫번째 자리까지 나타냄(소수 두번째 자리에서 반올림)
 - `TRUNCATE( , 0)` : 소수점을 버림(입력 파라미터가 무조건 2개)
-    - `TRUNCATE(1.25, 1)` : **1.2** -> 소수 첫째 자리까지 나타냄
+    - `TRUNCATE(1.25, 1)` : **1.2** -> 소수 첫째 자리까지 나타냄(이후는 절산)
 - `MAX()` : 최댓값
 - `MIN()` : 최솟값
 - `SUM()` : 합계
@@ -36,7 +36,7 @@ JOIN table2 B ON A.id = B.id
     - `MONTH(date)`
     - `DAY(date)`
 - `DATE_FORMAT()`
-    - `DATE_FORMAT(DATE_OF_BIRTH, '%Y-%m-%d')` : **2029-02-09** 형식으로 출력
+    - `DATE_FORMAT(DATE_OF_BIRTH, '%Y-%m-%d')` : **2023-02-09** 형식으로 출력
 
 <br>
 
@@ -60,7 +60,7 @@ JOIN table2 B ON A.id = B.id
 <br>
 
 ## 나열
-- 컬럼 명이나 테이블 명을 나열할 때 : `,`
+- 컬럼 명을 나열할 때 : `,`
     - 예: `SELECT column1, column2 FROM table_name`
 - 조건을 나열할 때 : `AND`
     - 예: `WHERE (조건) AND (조건) ...`
@@ -244,12 +244,14 @@ END
 <br>
 
 ## 문자열
-### 합치기 - CONCAT(A, B, C)
+### 합치기
+ - CONCAT(A, B, C)
 - `SELECT CONCAT("1","-","2")` -> '1-2'
 - `SELECT CONCAT(fist_name, last_name)` -> 'GildongHong'
 - `SELECT CONCAT(first_name, " ", last_name)` -> 'Gildong Hong'
 
-### 자르기 - SUBSTR(str, pos), SUBSTR(str, pos, len), SUBSTRING(str, pos), SUBSTRING(str, pos, len), LEFT(str, len), RIGHT(str, len), MID(str, pos, len)
+### 자르기
+ - SUBSTR(str, pos), SUBSTR(str, pos, len), SUBSTRING(str, pos), SUBSTRING(str, pos, len), LEFT(str, len), RIGHT(str, len), MID(str, pos, len)
 - `SELECT SUBSTRING('Quadratically', 5)` -> 'ratically'
 - `SELECT SUBSTRING('foobarbar' FROM 4)` -> 'barbar'
 - `SELECT SUBSTRING('Quadratically', 5, 6)` -> 'ratica'
@@ -260,8 +262,10 @@ END
 - `SELECT MID('abcdefg', 2, 4)` -> 'bcde'
 - `SELECT RIGHT('abcdefg', 3)` -> 'efg'
 
-### 대체하기 - REPLACE(str, from_str, to_str)
-- `ELECT REPLACE('www.mysql.com', 'com', 'kr')` -> www.mysql.kr
+### 대체하기
+ - REPLACE(str, from_str, to_str)
+- `ELECT REPLACE('www.mysql.com', 'com', 'kr')` -> 'www.mysql.kr'
 
-### 길이 - LENGTH(str), CHAR_LENGTH(str)
-- `SELECT LEFT('abcdefg')` -> 7
+### 길이
+ - LENGTH(str), CHAR_LENGTH(str)
+- `SELECT LENGTH('abcdefg')` -> 7
