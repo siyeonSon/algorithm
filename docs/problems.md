@@ -52,6 +52,7 @@
 - [x] [일곱 난쟁이](https://www.acmicpc.net/problem/2309)
 - [x] [날짜 계산](https://www.acmicpc.net/problem/1476)
 - [x] [수 이어쓰기](https://www.acmicpc.net/problem/1748)
+- [x] [한수](https://www.acmicpc.net/problem/1065)
 - [x] [기타줄](https://www.acmicpc.net/problem/1049)
 - [x] [카잉 달력](https://www.acmicpc.net/problem/6064)
 - [x] [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018)
