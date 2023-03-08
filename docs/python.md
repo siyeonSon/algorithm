@@ -167,6 +167,37 @@ print(board)  # result : [[0, 1, 0], [0, 0, 0], [0, 0, 0]]
 
 <br>
 
+## 🐰딕셔너리
+### 🥕선언
+- `dic = {}`
+
+### 🥕탐색
+- 딕셔너리를 대상으로 for문을 실행하면 key 값들만 출력함
+- `dic.items()`를 해야 key, value 값 탐색 가능
+```python
+dic = {'name':'pey', 'phone':'010-9999-1234', 'birth': '1118'}
+
+for d in dic :
+    print(d)  # key 값들만 출력
+
+for k, v in dic.items() :
+    print(k, v)  # key, value 접근 가능
+```
+
+
+### 🥕중첩 딕셔너리
+- `dic={}`처럼 공딕셔너리 상태에서 반복문 구현은 불가능
+```python
+dic = {
+    a : {aa: 1, bb: 2},
+    b : {aa: 1, bb: 2}
+}
+```
+- dic['a']['aa'] = 1
+- dic['a'] = {aa: 1, bb: 2}
+
+<br>
+
 ## 🐰그래프 탐색(DFS, BFS)
 - 재귀 최대 깊이 설정
 
