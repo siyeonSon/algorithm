@@ -91,6 +91,7 @@
 - [x] [토마토](https://www.acmicpc.net/problem/7576)
 - [x] [타켓 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)
 - [x] [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)
+- [x] [가장 먼 노드](https://school.programmers.co.kr/learn/courses/30/lessons/49189)
 - [x] [네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162)
 - [ ] [여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164)
 - [x] [단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163)
@@ -108,5 +109,4 @@
 ---
 
 ### 유니온 파인드
-
 - [ ] [집합의 표현](https://www.acmicpc.net/problem/1717)
