@@ -207,6 +207,21 @@ dic = {
 
 `sys.setrecursionlimit(100000)`
 
+- 재귀에서 None을 반환하는 경우
+```python
+# None 반환하는 경우
+def dfs():
+	if 종료 조건:
+        return cnt  
+    dfs()
+
+# 다음과 같이 해야한다
+def dfs():
+	if 종료 조건:
+        return cnt  
+    return dfs()
+```
+
 <br>
 
 ## 🐰소수
