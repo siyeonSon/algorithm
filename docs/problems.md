@@ -9,6 +9,7 @@
 - [x] [빙고](https://www.acmicpc.net/problem/2578)
 - [x] [어린 왕자](https://www.acmicpc.net/problem/1004)
 - [x] [중복 빼고 정렬하기](https://www.acmicpc.net/problem/10867)
+- [ ] [좌표 압축](https://www.acmicpc.net/problem/18870)
 - [x] [한 줄로 서기](https://www.acmicpc.net/problem/1138)
 - [x] [팰린드롬 만들기](https://www.acmicpc.net/problem/1254)
 - [x] [Z](https://www.acmicpc.net/problem/1074)
