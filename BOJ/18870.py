@@ -7,7 +7,9 @@ input = sys.stdin.readline
 n = int(input())
 x = list(map(int, input().split()))
 
-xx = sorted(list(set(x)))
+sx = sorted(list(set(x)))
+dic = {sx[i] : i for i in range(len(sx))}
 
-for i in x :
-    print(xx.index(i), end=' ')
+# list.index(i) 대신에 딕셔너리의 {key, value} 값을 사용하여 사전처럼 조회
+for x_ in x:
+    print(dic[x_], end = ' ')
