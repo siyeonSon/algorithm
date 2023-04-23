@@ -75,16 +75,24 @@
 
 ---
 
-### 백트래킹
-- [x] [부분수열의 합](https://www.acmicpc.net/problem/1182)
-
----
-
 ### 브루트 포스 - N과 M
 - [x] [N과 M(1)](https://www.acmicpc.net/problem/15649)
 - [x] [N과 M(2)](https://www.acmicpc.net/problem/15650)
 - [x] [N과 M(3)](https://www.acmicpc.net/problem/15651)
 - [x] [N과 M(4)](https://www.acmicpc.net/problem/15652)
+
+---
+
+### 이분 탐색
+- [x] [게임](https://www.acmicpc.net/problem/1072)
+
+---
+
+### 투 포인터
+- [x] [다이어트](https://www.acmicpc.net/problem/1484)
+- [ ] [회전 초밥](https://www.acmicpc.net/problem/2531)
+- [x] [소수의 연속합](https://www.acmicpc.net/problem/1644)
+- [ ] [수 고르기](https://www.acmicpc.net/problem/2230)
 
 ---
 
@@ -105,11 +113,8 @@
 
 ---
 
-### 투 포인터
-- [x] [다이어트](https://www.acmicpc.net/problem/1484)
-- [ ] [회전 초밥](https://www.acmicpc.net/problem/2531)
-- [x] [소수의 연속합](https://www.acmicpc.net/problem/1644)
-- [ ] [수 고르기](https://www.acmicpc.net/problem/2230)
+### 백트래킹
+- [x] [부분수열의 합](https://www.acmicpc.net/problem/1182)
 
 ---
 
