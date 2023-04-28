@@ -84,6 +84,7 @@
 ---
 
 ### 이분 탐색
+- [x] [랜선 자르기](https://www.acmicpc.net/problem/1654)
 - [x] [게임](https://www.acmicpc.net/problem/1072)
 
 ---
