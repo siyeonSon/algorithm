@@ -1,27 +1,34 @@
-# 2023-02-22 15:25:45
+# 2023-05-06 21:16:37
 # https://www.acmicpc.net/problem/1916
 
 import sys
 input = sys.stdin.readline
+from heapq import heappush, heappop
 
-n = int(input())  # 도시의 수
-m = int(input())  # 버스의 수
-bus = []  # 출발점, 도착점, 비용
+n = int(input())
+m = int(input())
+
+bus = [[] for _ in range(n+1)]
 for _ in range(m) :
-    bus.append(list(map(int, input().split())))
-start, end = map(int, input().split())  # 구하고자 하는 출발점와 도착점
-start, end = start - 1, end - 1
+    start, end, cost = map(int, input().split())
+    bus[start].append([end, cost])
 
-graph = [[100_000] * n for _ in range(n)]
-for i in range(m) :
-    graph[bus[i][0]-1][bus[i][1]-1], graph[bus[i][1]-1][bus[i][0]-1] = bus[i][2], bus[i][2]
-for i in range(n) :
-    graph[i][i] = 0
+start, end = map(int, input().split())  # 목표 비용 경로(출발지, 도착지)
 
-for i in range(start+1, end+1) :
-    tmp = []
-    for j in range(start, i) :
-        tmp.append(graph[start][j] + graph[j][i])
-    graph[start][i] = min(tmp)
+distnace = [1E9] * (n+1)
+distnace[start] = 0
 
-print(graph[start][end])
+def dijkstra(start, end) :
+    heap = []
+    heappush(heap, [0, start])  # 힙에 시작지점 추가
+    while heap :
+        weight, index = heappop(heap)
+        if weight > distnace[index] :  # 처리 안 해주면 시간 초과 발생
+            continue
+        for e, c in bus[index] :
+            if distnace[e] > weight + c :
+                distnace[e] = weight + c
+                heappush(heap, [weight+c, e])
+    return distnace[end]
+
+print(dijkstra(start, end))
