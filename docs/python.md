@@ -114,6 +114,49 @@ print(board)  # result : [[0, 1, 0], [0, 0, 0], [0, 0, 0]]
 
 <br>
 
+## 🐰2진수
+1. 2진수 변환 함수
+```python
+b_num = format(n, 'b')
+return b_num
+```
+
+2. 2진수 변환 함수 사용 X
+    - n을 2로 나눈 나머지를 계속 기록
+    - 재귀 함수
+```python
+def get_binary(n, li):
+    a, b = divmod(n, 2)  # 몫과 나머지 반환
+    li.append(b)
+    if a == 0 :
+        return li
+    else :
+        return get_binary(a, li)
+
+answer = get_binary(n, [])
+answer.sort(reverse = True)
+
+return "".join([str(_) for _ in answer])
+```
+
+3. 내장함수 아예 사용 X
+```python
+def getBinaryNum(n, li):
+    a, b = n//2, n % 2
+    li.append(b)
+    if a == 0 :
+        return li
+    else :
+        return getBinaryNum(a, li)
+
+answer = get_binary(n, [])
+answer.sort(reverse = True)
+
+return "".join([str(_) for _ in answer])
+```
+
+<br>
+
 ## 🐰정렬
 ### 🥕리스트 정렬
 - `sorted(a)`
