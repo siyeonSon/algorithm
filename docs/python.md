@@ -260,7 +260,7 @@ def prime_list(n):
 ## 🐰I/O
 `import sys`
 
-`input = int(sys.stdin.readline())`
+`input = sys.stdin.readline`
 
 `n, m = map(int, input().split())`
 
