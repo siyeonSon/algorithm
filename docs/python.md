@@ -298,6 +298,17 @@ def prime_list(n):
 - 값을 찾을 수 없을 때 -1을 출력하야 하는 경우 유용함
     - `find_answer = True`와 같은 변수를 만들지 않아도 됨
 
+## 🐰for-else
+- 만약 for문 중간에서 break가 실행되면 else 부분을 실행하지 않음
+- break에 걸리지 않고 for문이 끝까지 도는 경우 else 부분을 실행함
+```python
+for i in range(N):
+	if 조건문:
+		break
+else:
+	코드    
+```
+
 <br>
 
 ## 🐰I/O
