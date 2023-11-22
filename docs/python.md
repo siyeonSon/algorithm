@@ -259,6 +259,15 @@ dic = {
 - dic['a']['aa'] = 1
 - dic['a'] = {aa: 1, bb: 2}
 
+### 🥕최빈값 찾기
+```python
+from collections import Counter
+numbers = [1, 2, 3, 3, 4, 4, 4, 5, 5]
+cnt = Counter(numbers)  ## Counter({4: 3, 3: 2, 5: 2, 1: 1, 2: 1})
+cnt.most_common()  ## [(4, 3), (3, 2), (5, 2), (1, 1), (2, 1)]
+mode = cnt.most_common()[0][0]  # 최빈값
+```
+
 <br>
 
 ## 🐰그래프 탐색(DFS, BFS)
