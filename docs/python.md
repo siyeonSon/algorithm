@@ -235,6 +235,19 @@ for k, v in dic.items() :
 ```
 
 
+### 🥕정렬
+```python
+s_nums = sorted(dic.values(), key=lambda x: x[1], reverse=True)
+```
+
+```python
+dic = {}
+for i in range(n):
+	dic[i] = [nums[i], b_nums[i]]
+
+s_nums = dict(sorted(dic.items(), key=lambda item: (item[1][1], item[1][0]), reverse=True))
+```
+
 ### 🥕중첩 딕셔너리
 - `dic={}`처럼 공딕셔너리 상태에서 반복문 구현은 불가능
 ```python
