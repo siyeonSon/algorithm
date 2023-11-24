@@ -1,5 +1,6 @@
 ## 📜풀이한 문제들
 ### 숫자
+- [x] [통계학](https://www.acmicpc.net/problem/2108)
 - [x] [물병](https://www.acmicpc.net/problem/1052)
 - [ ] [음식 평론가](https://www.acmicpc.net/problem/1188)
 
@@ -100,11 +101,13 @@
 ### 그래프 탐색(DFS, BFS)
 - [x] [바이러스](https://www.acmicpc.net/problem/2606)
 - [x] [DFS와 BFS](https://www.acmicpc.net/problem/1260)
-- [ ] [미로 탐색](https://www.acmicpc.net/problem/2178)
 - [x] [섬의 개수](https://www.acmicpc.net/problem/4963)
+- [x] [영역 구하기](https://www.acmicpc.net/problem/2583)
+- [x] [미로 탐색](https://www.acmicpc.net/problem/2178)
 - [x] [토마토](https://www.acmicpc.net/problem/7576)
-- [x] [유기농 배추](ttps://www.acmicpc.net/problem/1012)
-- [ ] [탈출](https://www.acmicpc.net/problem/3055)
+- [x] [유기농 배추](https://www.acmicpc.net/problem/1012)
+- [x] [탈출](https://www.acmicpc.net/problem/3055)
+- [x] [퍼즐](https://www.acmicpc.net/problem/1525)
 - [x] [타켓 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)
 - [x] [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)
 - [x] [가장 먼 노드](https://school.programmers.co.kr/learn/courses/30/lessons/49189)
@@ -112,13 +115,12 @@
 - [ ] [여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164)
 - [x] [단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163)
 - [x] [아이템 줍기](https://school.programmers.co.kr/learn/courses/30/lessons/87694)
-- [ ] [퍼즐](https://www.acmicpc.net/problem/1525)
 
 ---
 
 ### 다익스트라
-- [ ](최소비용 구하기)[https://www.acmicpc.net/problem/1916]
-- [x](최단경로)[https://www.acmicpc.net/problem/1753]
+- [ ][최소비용 구하기](https://www.acmicpc.net/problem/1916)
+- [x][최단경로](https://www.acmicpc.net/problem/1753)
 
 ---
 
@@ -128,4 +130,4 @@
 ---
 
 ### 유니온 파인드
-- [ ] [집합의 표현](https://www.acmicpc.net/problem/1717)
+- [x] [집합의 표현](https://www.acmicpc.net/problem/1717)
