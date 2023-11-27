@@ -344,14 +344,11 @@ else:
 <br>
 
 ## 🐰I/O
-`import sys`
-
-`input = sys.stdin.readline`
-
-`n, m = map(int, input().split())`
-
-`numbers = list(map(int, input().split()))`
-
-`n = list(input().strip())` (각각의 수들이 붙어서 입력으로 주어진 경우)
-
-`print(*answer, sep='\n')`
+- `import sys`
+- `input = sys.stdin.readline`
+- `n, m = map(int, input().split())`
+- `numbers = list(map(int, input().split()))`
+- `n = list(input().strip())` (각각의 수들이 붙어서 입력으로 주어진 경우)
+    - `strip()`: 공백 제거
+    - `rstrip()`: 오른쪽 공백 제거
+- `print(*answer, sep='\n')`
