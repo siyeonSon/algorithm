@@ -1,6 +1,11 @@
 # python 문법 정리
 
-## 🐰문자열 제거
+## 🐰문자열
+### 🥕찾기
+- `str1.find(str2)`: index 리턴
+- `str2 in str1`: 존재여부 리턴
+
+### 🥕제거
 1. replace()
     - `str.replace(',', '')`
     - `str.replace(',', '', 1)` : 처음에 발견되는 1개만 제거
@@ -12,8 +17,8 @@
 3. 반복문
     ```python
     for char in str:
-    if char in "HWP":
-        result = result.replace(char, '')
+        if char in "HWP":
+            result = result.replace(char, '')
     ```
 4. strip
     - `str.strip()` : 공백 제거
