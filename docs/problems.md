@@ -30,8 +30,9 @@
 ---
 
 ### 그리디
-- [x] [시간 관리](https://www.acmicpc.net/problem/1263)
+- [x] [문서 검색](https://www.acmicpc.net/problem/1543)
 - [x] [행렬](https://www.acmicpc.net/problem/1080)
+- [x] [시간 관리](https://www.acmicpc.net/problem/1263)
 - [x] [체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862)
 
 ---
@@ -119,7 +120,7 @@
 ---
 
 ### 다익스트라
-- [ ][최소비용 구하기](https://www.acmicpc.net/problem/1916)
+- [x][최소비용 구하기](https://www.acmicpc.net/problem/1916)
 - [x][최단경로](https://www.acmicpc.net/problem/1753)
 
 ---
