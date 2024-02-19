@@ -31,6 +31,7 @@
 
 ### 그리디
 - [x] [문서 검색](https://www.acmicpc.net/problem/1543)
+- [x] [Yonsei TOTO](https://www.acmicpc.net/problem/12018)
 - [x] [행렬](https://www.acmicpc.net/problem/1080)
 - [ ] [종이 접기](https://www.acmicpc.net/problem/1802)
 - [x] [시간 관리](https://www.acmicpc.net/problem/1263)
