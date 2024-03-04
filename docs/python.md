@@ -93,12 +93,12 @@ print(board)  # result : [[0, 1, 0], [0, 0, 0], [0, 0, 0]]
 
 ## 🐰수학
 ### 🥕순열(P), 조합(C)
-- `from itertools`
-    - `itertools.permutations(nums ,2)` → nP2
-    - `itertools.combinations(nums ,2)` → nC2
-    - `itertools.combinations_with_replacement(nums, 2)` -> nH2
+- `from itertools import {permutations}`
+    - `permutations(nums)` → nP2
+    - `combinations(nums ,2)` → nC2
+    - `combinations_with_replacement(nums, 2)` -> nH2
 - tuple 형태이므로 유의할 것!
-    - 길이 : `len(list(permutations(nums ,2))`
+    - 길이 : `len(list(permutations(nums))`
 
 <br>
 
