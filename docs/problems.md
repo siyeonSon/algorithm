@@ -112,6 +112,7 @@
 - [x] [섬의 개수](https://www.acmicpc.net/problem/4963)
 - [x] [영역 구하기](https://www.acmicpc.net/problem/2583)
 - [x] [미로 탐색](https://www.acmicpc.net/problem/2178)
+- [x] [단지번호붙이기](https://www.acmicpc.net/problem/2667)
 - [x] [토마토](https://www.acmicpc.net/problem/7576)
 - [x] [유기농 배추](https://www.acmicpc.net/problem/1012)
 - [x] [탈출](https://www.acmicpc.net/problem/3055)
