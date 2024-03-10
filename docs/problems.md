@@ -110,6 +110,7 @@
 - [x] [바이러스](https://www.acmicpc.net/problem/2606)
 - [x] [DFS와 BFS](https://www.acmicpc.net/problem/1260)
 - [x] [섬의 개수](https://www.acmicpc.net/problem/4963)
+- [x] [연결 요소의 개수](https://www.acmicpc.net/problem/11724)
 - [x] [영역 구하기](https://www.acmicpc.net/problem/2583)
 - [x] [미로 탐색](https://www.acmicpc.net/problem/2178)
 - [x] [단지번호붙이기](https://www.acmicpc.net/problem/2667)
