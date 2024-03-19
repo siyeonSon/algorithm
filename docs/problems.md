@@ -39,6 +39,8 @@
 - [x] [우체국](https://www.acmicpc.net/problem/2141)
 - [x] [체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862)
 
+---
+
 ### 누적합
 - [x] [꿀 따기](https://www.acmicpc.net/problem/21758)
 
@@ -119,6 +121,7 @@
 - [x] [유기농 배추](https://www.acmicpc.net/problem/1012)
 - [x] [탈출](https://www.acmicpc.net/problem/3055)
 - [x] [퍼즐](https://www.acmicpc.net/problem/1525)
+- [x] [도넛과 막대 그래프](https://school.programmers.co.kr/learn/courses/30/lessons/258711)
 - [x] [타켓 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)
 - [x] [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)
 - [x] [가장 먼 노드](https://school.programmers.co.kr/learn/courses/30/lessons/49189)
