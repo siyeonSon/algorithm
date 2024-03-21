@@ -27,6 +27,7 @@
 - [x] [음하철도 구구팔](https://www.acmicpc.net/problem/1393)
 - [x] [십자가 찾기](https://www.acmicpc.net/problem/16924)
 - [x] [십자가 2개 놓기](https://www.acmicpc.net/problem/17085)
+- [x] [주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341)
 - [x] [로또의 최고 순위와 최저 순위](https://school.programmers.co.kr/learn/courses/30/lessons/77484)
 - [x] [행렬 테두리 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/77485)
 
