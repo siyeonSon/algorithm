@@ -9,6 +9,13 @@
 ### 정렬
 - [x] [귤 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/138476)
 
+---
+
+### 순열, 조합
+- [x] [불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)
+
+---
+
 ### 구현
 - [x] [빙고](https://www.acmicpc.net/problem/2578)
 - [x] [어린 왕자](https://www.acmicpc.net/problem/1004)
