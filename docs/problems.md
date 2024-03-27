@@ -11,6 +11,9 @@
 
 ---
 
+### 스택, 큐
+- [x] [짝 지어 정렬하기](https://school.programmers.co.kr/learn/courses/30/lessons/12973)
+
 ### 순열, 조합
 - [x] [불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)
 
