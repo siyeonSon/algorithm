@@ -9,13 +9,28 @@ str2 = input().strip()
 
 len1, len2 = len(str1), len(str2)
 
-board = [[0] * (len2+1) for _ in range(len1+1)]
+## 방법 1
+# board = [[0] * (len2+1) for _ in range(len1+1)]
 
-for i in range(1, len1+1) :
+# for i in range(1, len1+1) :
+#     for j in range(1, len2+1) :
+#         if str1[i-1] == str2[j-1] :
+#             board[i][j] = board[i-1][j-1] + 1
+#         else :
+#             board[i][j] = max(board[i-1][j], board[i][j-1])
+
+# print(board[-1][-1])
+
+## 방법 2
+board = [0] * (len2+1)
+
+for i in range(len1) :
+    cnt = 0
     for j in range(1, len2+1) :
-        if str1[i-1] == str2[j-1] :
-            board[i][j] = board[i-1][j-1] + 1
-        else :
-            board[i][j] = max(board[i-1][j], board[i][j-1])
+        if cnt < board[j] :
+            cnt = board[j]
+        elif str1[i] == str2[j-1] :
+            board[j] = board[j-1] + 1
+    print(board)
 
-print(board[-1][-1])
+print(max(board))
