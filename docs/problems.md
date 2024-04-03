@@ -14,6 +14,8 @@
 ### 스택, 큐
 - [x] [짝 지어 정렬하기](https://school.programmers.co.kr/learn/courses/30/lessons/12973)
 
+---
+
 ### 순열, 조합
 - [x] [불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)
 
@@ -74,6 +76,7 @@
 - [x] [동물원](https://www.acmicpc.net/problem/1309)
 - [x] [RGB거리](https://www.acmicpc.net/problem/1149)
 - [ ] [합분해](https://www.acmicpc.net/problem/2225)
+- [x] [LCS](https://www.acmicpc.net/problem/9251)
 - [x] [무한 수열](https://www.acmicpc.net/problem/1351)
 - [ ] [퇴사 2](https://www.acmicpc.net/problem/15486)
 
