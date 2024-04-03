@@ -22,15 +22,15 @@ len1, len2 = len(str1), len(str2)
 # print(board[-1][-1])
 
 ## 방법 2
-board = [0] * (len2+1)
+board = [0] * (len2)
 
 for i in range(len1) :
-    cnt = 0
-    for j in range(1, len2+1) :
+    cnt = 0  # 이전 위치까지의 최댓값
+    for j in range(len2) :
         if cnt < board[j] :
             cnt = board[j]
-        elif str1[i] == str2[j-1] :
-            board[j] = board[j-1] + 1
+        elif str1[i] == str2[j] :  # if로 하면 안 되는 이유: CAC, C
+            board[j] = cnt + 1
     print(board)
 
 print(max(board))
