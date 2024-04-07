@@ -30,6 +30,19 @@ visited.add(board[0][0])
 # dfs(0, 0, 1)
 # print(answer)
 
+## DFS 활용2
+def dfs2(x, y, visited) :
+    global answer
+    answer = max(answer, len(visited))
+    for i in range(4) :
+        nx, ny = dx[i]+x, dy[i]+y
+        if 0 <= nx < r and 0 <= ny < c :
+            if board[nx][ny] not in visited :
+                dfs2(nx, ny, visited+board[nx][ny])
+
+# dfs2(0, 0, board[0][0])
+# print(answer)
+
 ## BFS 활용
 def bfs(x, y) :
     global answer
@@ -43,4 +56,4 @@ def bfs(x, y) :
                 if board[nx][ny] not in visited :
                     queue.add((nx, ny, visited+board[nx][ny]))
     return answer
-print(bfs(0, 0))
+# print(bfs(0, 0))
