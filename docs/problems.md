@@ -76,7 +76,6 @@
 - [x] [동물원](https://www.acmicpc.net/problem/1309)
 - [x] [RGB거리](https://www.acmicpc.net/problem/1149)
 - [ ] [합분해](https://www.acmicpc.net/problem/2225)
-- [x] [LCS](https://www.acmicpc.net/problem/9251)
 - [x] [무한 수열](https://www.acmicpc.net/problem/1351)
 - [ ] [퇴사 2](https://www.acmicpc.net/problem/15486)
 
@@ -163,3 +162,9 @@
 
 ### 유니온 파인드
 - [x] [집합의 표현](https://www.acmicpc.net/problem/1717)
+
+---
+
+### LCS
+- [x] [LCS](https://www.acmicpc.net/problem/9251)
+- [x] [LCS 2](https://www.acmicpc.net/problem/9252)
