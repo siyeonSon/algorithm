@@ -11,8 +11,8 @@
 
 ---
 
-### 스택, 큐
-- [x] [짝 지어 정렬하기](https://school.programmers.co.kr/learn/courses/30/lessons/12973)
+### 재귀
+- [x] [홀수 홀릭 호석](https://www.acmicpc.net/problem/20164)
 
 ---
 
@@ -42,6 +42,7 @@
 - [x] [단어 뒤집기](https://www.acmicpc.net/problem/9093)
 - [x] [괄호](https://www.acmicpc.net/problem/9012)
 - [x] [그룹 단어 체커](https://www.acmicpc.net/problem/1316)
+- [x] [짝 지어 정렬하기](https://school.programmers.co.kr/learn/courses/30/lessons/12973)
 
 ---
 
@@ -150,8 +151,8 @@
 ---
 
 ### 다익스트라
-- [x][최소비용 구하기](https://www.acmicpc.net/problem/1916)
-- [x][최단경로](https://www.acmicpc.net/problem/1753)
+- [x] [최소비용 구하기](https://www.acmicpc.net/problem/1916)
+- [x] [최단경로](https://www.acmicpc.net/problem/1753)
 
 ---
 
