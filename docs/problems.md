@@ -169,3 +169,8 @@
 ### LCS
 - [x] [LCS](https://www.acmicpc.net/problem/9251)
 - [x] [LCS 2](https://www.acmicpc.net/problem/9252)
+
+---
+
+### ETC
+- [x] [피보나치 수 3](https://www.acmicpc.net/problem/2749)
