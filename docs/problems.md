@@ -139,7 +139,6 @@
 - [x] [유기농 배추](https://www.acmicpc.net/problem/1012)
 - [x] [탈출](https://www.acmicpc.net/problem/3055)
 - [x] [알파벳](https://www.acmicpc.net/problem/1987)
-- [x] [내리막 길](https://www.acmicpc.net/problem/1520)
 - [x] [퍼즐](https://www.acmicpc.net/problem/1525)
 - [x] [도넛과 막대 그래프](https://school.programmers.co.kr/learn/courses/30/lessons/258711)
 - [x] [타켓 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)
@@ -149,6 +148,12 @@
 - [ ] [여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164)
 - [x] [단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163)
 - [x] [아이템 줍기](https://school.programmers.co.kr/learn/courses/30/lessons/87694)
+
+---
+
+### DFS/BFS + α
+- [x] [내리막 길](https://www.acmicpc.net/problem/1520)
+- [x] [빵집](https://www.acmicpc.net/problem/3109)
 
 ---
 
