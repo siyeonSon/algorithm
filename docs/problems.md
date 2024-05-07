@@ -6,6 +6,11 @@
 
 ---
 
+### 해시
+- [x] [전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577)
+
+---
+
 ### 정렬
 - [x] [귤 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/138476)
 
