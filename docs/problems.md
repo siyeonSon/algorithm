@@ -51,6 +51,7 @@
 - [x] [그룹 단어 체커](https://www.acmicpc.net/problem/1316)
 - [x] [올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909)
 - [x] [짝 지어 정렬하기](https://school.programmers.co.kr/learn/courses/30/lessons/12973)
+- [x] [프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587)
 
 ---
 
