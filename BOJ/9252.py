@@ -29,7 +29,7 @@ def find_LCS(board) :
     i = len1
     j = len2
     while True :
-        if i <= 0 and j <= 0 :
+        if i < 0 or j < 0 :
             break
         if board[i][j] != board[i][j-1] and board[i][j] != board[i-1][j] :
             LCS = str1[i-1] + LCS
