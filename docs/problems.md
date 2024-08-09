@@ -51,7 +51,7 @@
 - [x] [그룹 단어 체커](https://www.acmicpc.net/problem/1316)
 - [x] [올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909)
 - [x] [짝 지어 정렬하기](https://school.programmers.co.kr/learn/courses/30/lessons/12973)
-- [x] [프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587)
+- [ ] [프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587)
 
 ---
 
@@ -59,6 +59,7 @@
 - [x] [문서 검색](https://www.acmicpc.net/problem/1543)
 - [x] [Yonsei TOTO](https://www.acmicpc.net/problem/12018)
 - [x] [등수 매기기](https://www.acmicpc.net/problem/2012)
+- [x] [초콜릿 식사](https://www.acmicpc.net/problem/2885)
 - [x] [행렬](https://www.acmicpc.net/problem/1080)
 - [ ] [종이 접기](https://www.acmicpc.net/problem/1802)
 - [x] [시간 관리](https://www.acmicpc.net/problem/1263)
