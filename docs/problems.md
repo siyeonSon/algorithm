@@ -67,6 +67,7 @@
 - [x] [수열의 점수](https://www.acmicpc.net/problem/2036)
 - [x] [우체국](https://www.acmicpc.net/problem/2141)
 - [x] [체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862)
+- [ ] [큰 수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/42883)
 
 ---
 
