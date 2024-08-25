@@ -60,6 +60,7 @@
 - [x] [문서 검색](https://www.acmicpc.net/problem/1543)
 - [x] [Yonsei TOTO](https://www.acmicpc.net/problem/12018)
 - [x] [등수 매기기](https://www.acmicpc.net/problem/2012)
+- [ ] [걷기](https://www.acmicpc.net/problem/1459)
 - [x] [초콜릿 식사](https://www.acmicpc.net/problem/2885)
 - [x] [행렬](https://www.acmicpc.net/problem/1080)
 - [ ] [종이 접기](https://www.acmicpc.net/problem/1802)
