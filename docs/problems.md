@@ -143,10 +143,11 @@
 ---
 
 ### 투 포인터
-- [x] [다이어트](https://www.acmicpc.net/problem/1484)
+- [x] [주몽](https://www.acmicpc.net/problem/1940)
 - [ ] [회전 초밥](https://www.acmicpc.net/problem/2531)
-- [x] [소수의 연속합](https://www.acmicpc.net/problem/1644)
+- [x] [다이어트](https://www.acmicpc.net/problem/1484)
 - [ ] [수 고르기](https://www.acmicpc.net/problem/2230)
+- [x] [소수의 연속합](https://www.acmicpc.net/problem/1644)
 
 ---
 
