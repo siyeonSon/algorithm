@@ -62,6 +62,11 @@
 
 ---
 
+### 우선순위 큐
+- [ ] [N번째 큰 수](https://www.acmicpc.net/problem/2075)
+
+---
+
 ### 그리디
 - [x] [문서 검색](https://www.acmicpc.net/problem/1543)
 - [x] [Yonsei TOTO](https://www.acmicpc.net/problem/12018)
