@@ -12,6 +12,11 @@
 
 ---
 
+### 딕셔너리
+- [x] [나는야 포켓몬 마스터 이다솜](https://www.acmicpc.net/problem/1620)
+
+---
+
 ### 해시
 - [x] [전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577)
 - [x] [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578)
