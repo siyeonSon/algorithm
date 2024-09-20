@@ -114,6 +114,11 @@ print(board)  # result : [[0, 1, 0], [0, 0, 0], [0, 0, 0]]
 
 <br>
 
+### 🥕Counter
+- 리스트나 문자열에서 각 원소가 몇 번씩 나오는지
+- `from collections import Counter`
+    -`dic = Counter(arr)`
+
 ### 🥕무한
 - `float('inf')`, `float('-inf')`
 
