@@ -26,6 +26,7 @@
 ---
 
 ### 정렬
+- [x] [빈도 정렬](https://www.acmicpc.net/problem/2910)
 - [x] [귤 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/138476)
 - [x] [베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)
 
