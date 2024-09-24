@@ -61,8 +61,9 @@
 
 ### 스택, 힙
 - [x] [단어 뒤집기](https://www.acmicpc.net/problem/9093)
-- [x] [괄호](https://www.acmicpc.net/problem/9012)
 - [x] [그룹 단어 체커](https://www.acmicpc.net/problem/1316)
+- [x] [괄호](https://www.acmicpc.net/problem/9012)
+- [x] [좋은 단어](https://www.acmicpc.net/problem/3986)
 - [x] [크게 만들기](https://www.acmicpc.net/problem/2812)
 - [x] [올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909)
 - [x] [짝 지어 정렬하기](https://school.programmers.co.kr/learn/courses/30/lessons/12973)
