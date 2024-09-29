@@ -44,6 +44,7 @@
 
 ### 구현
 - [x] [비밀번호 발음하기](https://www.acmicpc.net/problem/4659)
+- [x] [수학숙제](https://www.acmicpc.net/problem/2870)
 - [x] [빙고](https://www.acmicpc.net/problem/2578)
 - [x] [어린 왕자](https://www.acmicpc.net/problem/1004)
 - [x] [중복 빼고 정렬하기](https://www.acmicpc.net/problem/10867)
