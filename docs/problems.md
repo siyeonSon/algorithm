@@ -45,10 +45,11 @@
 ### 구현
 - [x] [기상캐스터](https://www.acmicpc.net/problem/10709)
 - [x] [비밀번호 발음하기](https://www.acmicpc.net/problem/4659)
+- [x] [중복 빼고 정렬하기](https://www.acmicpc.net/problem/10867)
 - [x] [수학숙제](https://www.acmicpc.net/problem/2870)
 - [x] [빙고](https://www.acmicpc.net/problem/2578)
+- [x] [교사가 된 현우](https://www.acmicpc.net/problem/3474)
 - [x] [어린 왕자](https://www.acmicpc.net/problem/1004)
-- [x] [중복 빼고 정렬하기](https://www.acmicpc.net/problem/10867)
 - [ ] [좌표 압축](https://www.acmicpc.net/problem/18870)
 - [x] [한 줄로 서기](https://www.acmicpc.net/problem/1138)
 - [x] [팰린드롬 만들기](https://www.acmicpc.net/problem/1254)
