@@ -196,6 +196,7 @@
 ---
 
 ### DFS/BFS + α
+- [x] [연구소](https://www.acmicpc.net/problem/14502)
 - [x] [내리막 길](https://www.acmicpc.net/problem/1520)
 - [x] [빵집](https://www.acmicpc.net/problem/3109)
 
