@@ -202,9 +202,15 @@
 
 ---
 
+### 플로이드 와샬
+- [x] [운동](https://www.acmicpc.net/problem/1956)
+
+---
+
 ### 다익스트라
 - [x] [최소비용 구하기](https://www.acmicpc.net/problem/1916)
 - [x] [최단경로](https://www.acmicpc.net/problem/1753)
+- [ ] [운동](https://www.acmicpc.net/problem/1956)
 
 ---
 
