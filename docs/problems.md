@@ -77,6 +77,7 @@
 
 ### 우선순위 큐
 - [ ] [N번째 큰 수](https://www.acmicpc.net/problem/2075)
+- [x] [더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626)
 
 ---
 
