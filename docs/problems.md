@@ -60,6 +60,7 @@
 - [x] [주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341)
 - [x] [로또의 최고 순위와 최저 순위](https://school.programmers.co.kr/learn/courses/30/lessons/77484)
 - [x] [행렬 테두리 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/77485)
+- [x] [롤케이크 자르기](https://school.programmers.co.kr/learn/courses/30/lessons/132265)
 
 ---
 
