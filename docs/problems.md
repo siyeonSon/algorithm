@@ -16,6 +16,7 @@
 ### 딕셔너리
 - [x] [나는야 포켓몬 마스터 이다솜](https://www.acmicpc.net/problem/1620)
 - [x] [패션왕 신해빈](https://www.acmicpc.net/problem/9375)
+- [x] [생태학](https://www.acmicpc.net/problem/4358)
 
 ---
 
