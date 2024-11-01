@@ -53,6 +53,7 @@
 - [x] [어린 왕자](https://www.acmicpc.net/problem/1004)
 - [ ] [좌표 압축](https://www.acmicpc.net/problem/18870)
 - [x] [한 줄로 서기](https://www.acmicpc.net/problem/1138)
+- [x] [추월](https://www.acmicpc.net/problem/2002)
 - [x] [팰린드롬 만들기](https://www.acmicpc.net/problem/1254)
 - [x] [Z](https://www.acmicpc.net/problem/1074)
 - [x] [음하철도 구구팔](https://www.acmicpc.net/problem/1393)
