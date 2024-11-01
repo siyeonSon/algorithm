@@ -1,6 +1,7 @@
 ## 📜풀이한 문제들
 ### 문자열
 - [x] [ROT13](https://www.acmicpc.net/problem/11655)
+- [x] [숫자놀이](https://www.acmicpc.net/problem/1755)
 - [x] [한국이 그리울 땐 서버에 접속하지](https://www.acmicpc.net/problem/9996)
 - [x] [NBA 농구](https://www.acmicpc.net/problem/2852)
 
