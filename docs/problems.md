@@ -37,6 +37,7 @@
 
 ### 재귀
 - [x] [홀수 홀릭 호석](https://www.acmicpc.net/problem/20164)
+- [x] [크면서 작은 수](https://www.acmicpc.net/problem/2992)
 
 ---
 
