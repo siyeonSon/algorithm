@@ -97,6 +97,7 @@
 - [x] [초콜릿 식사](https://www.acmicpc.net/problem/2885)
 - [x] [행렬](https://www.acmicpc.net/problem/1080)
 - [ ] [종이 접기](https://www.acmicpc.net/problem/1802)
+- [x] [문자열 복사](https://www.acmicpc.net/problem/2195)
 - [x] [시간 관리](https://www.acmicpc.net/problem/1263)
 - [x] [행복 유치원](https://www.acmicpc.net/problem/13164)
 - [x] [수열의 점수](https://www.acmicpc.net/problem/2036)
