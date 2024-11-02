@@ -27,6 +27,10 @@
 ### 🥕뒤집기
 - `str[::-1]`
 
+### 🥕대문자, 소문자
+- `str.upper()`, `str.isupper()`
+- `str.lower()`, `str.islower()`
+
 <br>
 
 ## 🐰list
