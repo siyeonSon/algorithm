@@ -4,6 +4,7 @@
 - [x] [단어 나누기](https://www.acmicpc.net/problem/1251)
 - [x] [숫자놀이](https://www.acmicpc.net/problem/1755)
 - [x] [한국이 그리울 땐 서버에 접속하지](https://www.acmicpc.net/problem/9996)
+- [x] [여우는 어떻게 울지?](https://www.acmicpc.net/problem/9536)
 - [x] [NBA 농구](https://www.acmicpc.net/problem/2852)
 - [x] [Java vs C++](https://www.acmicpc.net/problem/3613)
 
