@@ -131,6 +131,7 @@
 - [ ] [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)
 - [x] [동물원](https://www.acmicpc.net/problem/1309)
 - [x] [RGB거리](https://www.acmicpc.net/problem/1149)
+- [ ] [문자열 판별](https://www.acmicpc.net/problem/16500)
 - [ ] [합분해](https://www.acmicpc.net/problem/2225)
 - [x] [무한 수열](https://www.acmicpc.net/problem/1351)
 - [ ] [퇴사 2](https://www.acmicpc.net/problem/15486)
