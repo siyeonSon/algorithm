@@ -94,6 +94,7 @@
 - [x] [문서 검색](https://www.acmicpc.net/problem/1543)
 - [x] [오셀로 재배치](https://www.acmicpc.net/problem/13413)
 - [x] [Yonsei TOTO](https://www.acmicpc.net/problem/12018)
+- [x] [타노스](https://www.acmicpc.net/problem/20310)
 - [x] [등수 매기기](https://www.acmicpc.net/problem/2012)
 - [ ] [팰린드롬 만들기](https://www.acmicpc.net/problem/1213)
 - [ ] [걷기](https://www.acmicpc.net/problem/1459)
