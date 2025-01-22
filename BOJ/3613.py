@@ -8,15 +8,17 @@ def cppToJava(str) :
     result = ''
     flag = False
     for s in str :
+        if s.isupper() :
+            return 'Error!'
+        if s == '_' :
+            if flag == True :
+                return 'Error!'
+            flag = True
+            continue
         if flag :
             result += s.upper()
             flag = False
             continue
-        if s == '_' :
-            flag = True
-            continue
-        if s.isupper() :
-            return 'Error!'
         result += s
     return result
 
@@ -31,11 +33,17 @@ def javaToCpp(str) :
 
 str = input().rstrip()
 
-answer = ''
-if '_' in str :
-    answer = cppToJava(str)
-else :
-    answer = javaToCpp(str)
-if str[0].isupper() :
-    answer = 'Error!'
-print(answer)
+def isPossible(str) :
+    if str[0].isupper() or not str[0].isalpha() or not str[-1].isalpha() or ' ' in str :
+        return False
+    return True
+
+def solve(str) :
+    if isPossible(str) :
+        if '_' in str :
+            return cppToJava(str)
+        else :
+            return javaToCpp(str)
+    return 'Error!'
+
+print(solve(str))
