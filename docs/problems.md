@@ -7,6 +7,7 @@
 - [x] [여우는 어떻게 울지?](https://www.acmicpc.net/problem/9536)
 - [x] [NBA 농구](https://www.acmicpc.net/problem/2852)
 - [x] [Java vs C++](https://www.acmicpc.net/problem/3613)
+- [x] [비슷한 단어](https://www.acmicpc.net/problem/2607)
 
 ---
 
