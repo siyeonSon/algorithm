@@ -110,11 +110,19 @@ print(board)  # result : [[0, 1, 0], [0, 0, 0], [0, 0, 0]]
 ## 🐰수학
 ### 🥕순열(P), 조합(C)
 - `from itertools import {permutations}`
-    - `permutations(nums)` → nP2
-    - `combinations(nums ,2)` → nC2
-    - `combinations_with_replacement(nums, 2)` -> nH2
+    - `permutations(nums, 2)` → nP2
+    - `combinations(nums ,2)` → nC2
+    - `combinations_with_replacement(nums, 2)` -> nH2
 - tuple 형태이므로 유의할 것!
-    - 길이 : `len(list(permutations(nums))`
+    - 길이 : `len(list(permutations(nums))`
+
+- 순열(3P2): (1, 2), (1, 3), (2, 1), (2, 3), (3, 1), (3, 2) -> `3*2` = 6개
+	- 순서의 나열. 1,2 와 2,1은 다름
+- 조합(3C2): (1, 2), (1, 3), (2, 3) ->`3!/2!` = 3개
+	- 숫자들의 조합
+- 중복조합(3H2): (1, 1), (1, 2), (1, 3), (2, 2), (2, 3), (3, 3) -> 3+2-1C2 = 4C2 = 6개
+	- 서로 다른 n개에서 중복을 허락하여 r개를 선택해 나열하는 것
+	- nHr = n+r-1Cr
 
 <br>
 
