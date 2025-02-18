@@ -139,6 +139,7 @@
 - [x] [무한 수열](https://www.acmicpc.net/problem/1351)
 - [ ] [퇴사 2](https://www.acmicpc.net/problem/15486)
 - [x] [땅따먹기](https://school.programmers.co.kr/learn/courses/30/lessons/12913)
+- [x] [정수 삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105)
 
 ---
 
