@@ -238,6 +238,7 @@
 ### 백트래킹
 - [x] [부분수열의 합](https://www.acmicpc.net/problem/1182)
 - [ ] [부등호](https://www.acmicpc.net/problem/2529)
+- [x] [N-Queen](https://school.programmers.co.kr/learn/courses/30/lessons/12952)
 
 ---
 
