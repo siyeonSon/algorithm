@@ -186,6 +186,7 @@
 - [x] [다이어트](https://www.acmicpc.net/problem/1484)
 - [ ] [수 고르기](https://www.acmicpc.net/problem/2230)
 - [x] [소수의 연속합](https://www.acmicpc.net/problem/1644)
+- [x] [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885)
 
 ---
 
