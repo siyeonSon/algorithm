@@ -37,6 +37,23 @@ JOIN table2 B ON A.id = B.id
     - `DAY(date)`
 - `DATE_FORMAT()`
     - `DATE_FORMAT(DATE_OF_BIRTH, '%Y-%m-%d')` : **2023-02-09** 형식으로 출력
+- 참고
+    - **%Y**: 연도 4자리
+    - %y: 연도 2자리
+    - %M: 긴 월(영어, 예: July)
+    - **%m**: 숫자 월(두 자리)
+    - %b: 짧은 월(영어, 예: Jul)
+    - %c: 숫자 월(한 자리)
+    - **%d**: 일자(두 자리)
+    - %e: 일자(한 자리)
+    - %W: 긴 요일 이름(영어, 예: Monday)
+    - %a: 짧은 요일 이름(영어, 예: Mon)
+    - **%T**: hh:mm:SS
+    - %r: hh:mm:ss AM,PM
+    - %I: 시간(12시간)
+    - %H: 시간(24시간)
+    - %i: 분
+    - %s: 초
 
 <br>
 
@@ -86,6 +103,8 @@ JOIN table2 B ON A.id = B.id
 ## 조건문
 - `IFNULL()`
     - `IFNULL(num, 'NONE')` : num이 null일 경우 'NONE'으로 출력
+- `IF(조건, 결과1, 결과2)`
+    - `SELECT IF(10>5, ‘크다’, ‘작다’) AS RESULT;`
 
 <br>
 
@@ -113,7 +132,7 @@ JOIN table2 B ON A.id = B.id
         - 예를 들어 `GROUP BY DATE`를 하면 DATE에 따른 `MIN(PRICE)`(최소가격), `COUNT(*)`(개수) 등을 반복문 돌려서 DATE를 기준으로 표를 출력한다고 생각할 것
 - `GROUP BY column_name HAVING (조건)`
     - `WEHRE` vs `HAVING` :  WHERE는 그룹화 하기 전이고, HAVING은 그룹화 후에 조건
-    - 예: `SELECT ORDER_DATE FROM ORDER WHERE ORDER_DATE > DATE('1996-12-31') GROUP BY ORDERDATE HAVING COUNT(ORDER_DATE) >= 2`
+    - 예: `SELECT ORDER_DATE FROM ORDER WHERE ORDER_DATE > DATE('1996-12-31') GROUP BY ORDER_DATE HAVING COUNT(ORDER_DATE) >= 2`
     - 1996-12-31 이후의 데이터 중 주문 개수가 2개 이상인 주문 날짜들을 조회
 - GROUP BY와 DISTINCT 함께 활용하기
     - `SELECT COUNTRY, COUNT(DISTINCT CITY) FROM CUSTOMERS GROUP BY COUNTRY`
@@ -227,8 +246,9 @@ GROUP BY ID HAVING COUNT(*) = 1  -- 중복되는 데이터들 제거
 ## CASE WHEN ~ THEN ~ ELSE ~ END
 ```sql
 CASE
-    WHEN '조건' THEN '출력할 데이터'
-    ELSE '출력할 데이터'
+    WHEN '조건1' THEN '출력할 데이터1'
+    WHEN '조건2' THEN '출력할 데이터2'
+    ELSE '출력할 데이터3'
 END
 ```
 
@@ -245,13 +265,14 @@ END
 
 ## 문자열
 ### 합치기
- - CONCAT(A, B, C)
+- CONCAT(A, B, C)
 - `SELECT CONCAT("1","-","2")` -> '1-2'
 - `SELECT CONCAT(fist_name, last_name)` -> 'GildongHong'
 - `SELECT CONCAT(first_name, " ", last_name)` -> 'Gildong Hong'
 
 ### 자르기
- - SUBSTR(str, pos), SUBSTR(str, pos, len), SUBSTRING(str, pos), SUBSTRING(str, pos, len), LEFT(str, len), RIGHT(str, len), MID(str, pos, len)
+ - SUBSTR(str, pos), SUBSTR(str, pos, len), SUBSTRING(str, pos), SUBSTRING(str, pos, len)
+ - LEFT(str, len), RIGHT(str, len), MID(str, pos, len)
 - `SELECT SUBSTRING('Quadratically', 5)` -> 'ratically'
 - `SELECT SUBSTRING('foobarbar' FROM 4)` -> 'barbar'
 - `SELECT SUBSTRING('Quadratically', 5, 6)` -> 'ratica'
@@ -264,7 +285,7 @@ END
 
 ### 대체하기
  - REPLACE(str, from_str, to_str)
-- `ELECT REPLACE('www.mysql.com', 'com', 'kr')` -> 'www.mysql.kr'
+- `SELECT REPLACE('www.mysql.com', 'com', 'kr')` -> 'www.mysql.kr'
 
 ### 길이
  - LENGTH(str), CHAR_LENGTH(str)
