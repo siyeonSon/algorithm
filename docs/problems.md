@@ -84,6 +84,7 @@
 - [x] [올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909)
 - [x] [짝 지어 정렬하기](https://school.programmers.co.kr/learn/courses/30/lessons/12973)
 - [ ] [프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587)
+- [x] [괄호 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/76502)
 
 ---
 
@@ -164,6 +165,7 @@
 - [x] [부분수열의 합](https://www.acmicpc.net/problem/1182)
 - [x] [스타트와 링크](https://www.acmicpc.net/problem/14889)
 - [ ] [차트](https://www.acmicpc.net/problem/1239)
+- [x] [피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946)
 
 ---
 
