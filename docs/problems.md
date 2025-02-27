@@ -85,6 +85,7 @@
 - [x] [짝 지어 정렬하기](https://school.programmers.co.kr/learn/courses/30/lessons/12973)
 - [ ] [프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587)
 - [x] [괄호 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/76502)
+- [x] [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586)
 
 ---
 
