@@ -119,6 +119,7 @@
 ### 누적합
 - [x] [수열](https://www.acmicpc.net/problem/2559)
 - [x] [꿀 따기](https://www.acmicpc.net/problem/21758)
+- [ ] [차트](https://www.acmicpc.net/problem/1239)
 
 ---
 
