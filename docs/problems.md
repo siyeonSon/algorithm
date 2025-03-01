@@ -241,6 +241,7 @@
 - [x] [최소비용 구하기](https://www.acmicpc.net/problem/1916)
 - [x] [최단경로](https://www.acmicpc.net/problem/1753)
 - [ ] [운동](https://www.acmicpc.net/problem/1956)
+- [ ] [합승 택시 요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413)
 
 ---
 
