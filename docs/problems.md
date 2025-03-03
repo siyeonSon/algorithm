@@ -148,6 +148,7 @@
 - [x] [땅따먹기](https://school.programmers.co.kr/learn/courses/30/lessons/12913)
 - [x] [정수 삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105)
 - [x] [가장 큰 정사각형 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/12905)
+- [ ] [N으로 표현](https://school.programmers.co.kr/learn/courses/30/lessons/42895)
 
 ---
 
