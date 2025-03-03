@@ -38,6 +38,7 @@
 - [x] [귤 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/138476)
 - [x] [베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)
 - [ ] [행렬의 곱셈](https://school.programmers.co.kr/learn/courses/30/lessons/12949)
+- [x] [튜플](https://school.programmers.co.kr/learn/courses/30/lessons/64065)
 
 ---
 
