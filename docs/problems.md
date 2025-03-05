@@ -138,6 +138,7 @@
 - [x] [설탕 배달](https://www.acmicpc.net/problem/2839)
 - [x] [카드 구매하기](https://www.acmicpc.net/problem/11052)
 - [x] [카드 구매하기2](https://www.acmicpc.net/problem/16194)
+- [ ] [기타리스트](https://www.acmicpc.net/problem/1495)
 - [ ] [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)
 - [x] [동물원](https://www.acmicpc.net/problem/1309)
 - [x] [RGB거리](https://www.acmicpc.net/problem/1149)
