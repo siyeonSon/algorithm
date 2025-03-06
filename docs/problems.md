@@ -151,6 +151,7 @@
 - [x] [가장 큰 정사각형 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/12905)
 - [x] [등굣길](https://school.programmers.co.kr/learn/courses/30/lessons/42898)
 - [ ] [N으로 표현](https://school.programmers.co.kr/learn/courses/30/lessons/42895)
+- [ ] [도둑질](http://school.programmers.co.kr/learn/courses/30/lessons/42897)
 
 ---
 
