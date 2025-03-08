@@ -76,7 +76,7 @@
 
 ---
 
-### 스택, 힙
+### 스택, 큐
 - [x] [단어 뒤집기](https://www.acmicpc.net/problem/9093)
 - [x] [그룹 단어 체커](https://www.acmicpc.net/problem/1316)
 - [x] [괄호](https://www.acmicpc.net/problem/9012)
@@ -88,6 +88,7 @@
 - [ ] [프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587)
 - [x] [괄호 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/76502)
 - [x] [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586)
+- [ ] [다리를 지나는 트럭](https://school.programmers.co.kr/learn/courses/30/lessons/42583)
 
 ---
 
