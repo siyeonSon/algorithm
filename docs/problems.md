@@ -123,14 +123,6 @@
 
 ---
 
-### 누적합
-- [x] [수열](https://www.acmicpc.net/problem/2559)
-- [x] [꿀 따기](https://www.acmicpc.net/problem/21758)
-- [ ] [차트](https://www.acmicpc.net/problem/1239)
-- [x] [정육점](https://www.acmicpc.net/problem/2258)
-
----
-
 ### DP
 - [x] [피보나치 수 2](https://www.acmicpc.net/problem/2748)
 - [x] [다리 놓기](https://www.acmicpc.net/problem/1010)
@@ -259,6 +251,15 @@
 - [x] [부분수열의 합](https://www.acmicpc.net/problem/1182)
 - [ ] [부등호](https://www.acmicpc.net/problem/2529)
 - [x] [N-Queen](https://www.acmicpc.net/problem/9663)
+
+---
+
+### 누적합, 슬라이딩 윈도우
+- [x] [수열](https://www.acmicpc.net/problem/2559)
+- [x] [소가 길을 건너간 이유 5](https://www.acmicpc.net/problem/14465)
+- [x] [꿀 따기](https://www.acmicpc.net/problem/21758)
+- [ ] [차트](https://www.acmicpc.net/problem/1239)
+- [x] [정육점](https://www.acmicpc.net/problem/2258)
 
 ---
 
