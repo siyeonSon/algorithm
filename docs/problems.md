@@ -140,6 +140,7 @@
 - [x] [RGB거리](https://www.acmicpc.net/problem/1149)
 - [ ] [문자열 판별](https://www.acmicpc.net/problem/16500)
 - [ ] [합분해](https://www.acmicpc.net/problem/2225)
+- [x] [평범한 배낭](https://www.acmicpc.net/problem/12865)
 - [x] [무한 수열](https://www.acmicpc.net/problem/1351)
 - [ ] [퇴사 2](https://www.acmicpc.net/problem/15486)
 - [x] [땅따먹기](https://school.programmers.co.kr/learn/courses/30/lessons/12913)
