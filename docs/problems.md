@@ -127,6 +127,7 @@
 - [x] [피보나치 수 2](https://www.acmicpc.net/problem/2748)
 - [x] [다리 놓기](https://www.acmicpc.net/problem/1010)
 - [x] [1로 만들기](https://www.acmicpc.net/problem/1463)
+- [x] [이친수](https://www.acmicpc.net/problem/2193)
 - [x] [2×n 타일링](https://www.acmicpc.net/problem/11726)
 - [x] [2×n 타일링2](https://www.acmicpc.net/problem/11727)
 - [x] [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)
