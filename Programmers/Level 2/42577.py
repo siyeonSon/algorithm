@@ -2,9 +2,8 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/42577
 
 def solution(phone_book):
-    s_phone_book = sorted(phone_book)
-    for i in range(len(s_phone_book)-1) :
-        l = len(s_phone_book[i])
-        if s_phone_book[i] in s_phone_book[i+1][:l] :
+    spb = sorted(phone_book)
+    for i in range(len(spb)-1) :
+        if spb[i+1].startswith(spb[i]) :
             return False
     return True
